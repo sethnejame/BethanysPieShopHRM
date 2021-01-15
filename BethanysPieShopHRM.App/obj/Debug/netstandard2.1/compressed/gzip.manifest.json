@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\z8gzJdcuvT3SSe74muHpnlhL9rbB2xZY8SHprtQzTb8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_nv2NB7PM6555Aq0lstjNiXrX5TO48LwjH-mTY7UOqI=.hash",
       "Source": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BethanysPieShopHRM.App.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BethanysPieShopHRM.App.dll.gz"
     },
@@ -266,7 +266,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\psHDGJjEin-oBTGir8jkfLL8me4Sy1RZJJhx_BG3O1Y=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\3ULbU6w3CP2LCn7ovbWfFSXotvEUxJ4MMYlZI8ImIe4=.hash",
       "Source": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BethanysPieShopHRM.App.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BethanysPieShopHRM.App.pdb.gz"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\htRa6UHUKJqn6oQJeyV6_AV8Y8IuDZ-bOvPikIs2pbw=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gQQKibMGjh2xdu_vpn5Ni1KYCZoZhF2C357RhBwwi-M=.hash",
       "Source": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

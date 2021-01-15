@@ -32,5 +32,32 @@
             <label for="city" class="col-sm-3">City: </label>
             <InputText id="city" class="form-control col-sm-8" @bind-Value="@Employee.City" placeholder="Enter city" />
         </div>
+        <div class="form-group">
+            <label for="country" class="col-sm-3">Country: </label>
+            <InputSelect id="country" @bind-Value="@CountryId" class="form-control col-sm-8">
+                @foreach (var country in Countries)
+                {
+                    <option value="@country.CountryId">@country.Name</option>
+                }
+            </InputSelect>
+        </div>
+        <div class="form-group row">
+            <label for="phonenumber" class="col-sm-3">Phone number: </label>
+            <InputText id="phonenumber" class="form-control col-sm-8" @bind-Value="@Employee.PhoneNumber" placeholder="Enter phone number" />
+        </div>
+        <div class="form-group row">
+            <label for="longitude" class="col-sm-3">Longitude: </label>
+            <InputNumber id="longitude" class="form-control col-sm-8" @bind-Value="@Employee.Longitude" placeholder="Enter longitude" />
+        </div>
+        <div class="form-group row">
+            <label for="latitude" class="col-sm-3">Latitude: </label>
+            <InputNumber id="latitude" class="form-control col-sm-8" @bind-Value="@Employee.Latitude" placeholder="Enter latitude" />
+        </div>
+        <div class="form-group row">
+            <label for="smoker" class="offset-sm-3">
+                <InputCheckbox id="smoker" @bind-Value="@Employee.Smoker"></InputCheckbox>
+            &nbsp;Smoker
+            </label>
+        </div>
     </EditForm>
 </section>

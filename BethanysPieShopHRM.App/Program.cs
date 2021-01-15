@@ -20,6 +20,7 @@ namespace BethanysPieShopHRM.App
 
             builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
             builder.Services.AddHttpClient<IEmployeeDataService, EmployeeDataService>(client => client.BaseAddress = new Uri("https://localhost:44340"));
+            builder.Services.AddHttpClient<ICountryService, CountryService>(client => client.BaseAddress = new Uri("https://localhost:44340"));
 
             await builder.Build().RunAsync();
         }
