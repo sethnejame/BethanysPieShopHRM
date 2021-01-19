@@ -78,7 +78,7 @@ using BethanysPieShopHRM.App.Shared;
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
-            __builder.AddMarkupContent(0, "<h1 class=\"page-title\">All employees</h1>");
+            __builder.AddMarkupContent(0, "<h1 class=\"page-title\">All employees</h1>\r\n\r\n");
 #nullable restore
 #line 5 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
  if (Employees == null)
@@ -87,7 +87,8 @@ using BethanysPieShopHRM.App.Shared;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(1, "<p><em>Loading...</em></p>");
+            __builder.AddContent(1, "    ");
+            __builder.AddMarkupContent(2, "<p><em>Loading...</em></p>\r\n");
 #nullable restore
 #line 8 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
 }
@@ -97,10 +98,13 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(2, "table");
-            __builder.AddAttribute(3, "class", "table");
-            __builder.AddMarkupContent(4, "<thead><tr><th></th>\r\n                <th>Employee ID</th>\r\n                <th>First name</th>\r\n                <th>Last name</th>\r\n                <th></th></tr></thead>\r\n        ");
-            __builder.OpenElement(5, "tbody");
+            __builder.AddContent(3, "    ");
+            __builder.OpenElement(4, "table");
+            __builder.AddAttribute(5, "class", "table");
+            __builder.AddMarkupContent(6, "\r\n        ");
+            __builder.AddMarkupContent(7, "<thead>\r\n            <tr>\r\n                <th></th>\r\n                <th>Employee ID</th>\r\n                <th>First name</th>\r\n                <th>Last name</th>\r\n                <th></th>\r\n            </tr>\r\n        </thead>\r\n        ");
+            __builder.OpenElement(8, "tbody");
+            __builder.AddMarkupContent(9, "\r\n");
 #nullable restore
 #line 22 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
              foreach (var employee in Employees)
@@ -109,10 +113,12 @@ else
 #line default
 #line hidden
 #nullable disable
-            __builder.OpenElement(6, "tr");
-            __builder.OpenElement(7, "td");
-            __builder.OpenElement(8, "img");
-            __builder.AddAttribute(9, "src", 
+            __builder.AddContent(10, "                ");
+            __builder.OpenElement(11, "tr");
+            __builder.AddMarkupContent(12, "\r\n                    ");
+            __builder.OpenElement(13, "td");
+            __builder.OpenElement(14, "img");
+            __builder.AddAttribute(15, "src", 
 #nullable restore
 #line 25 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
                                    $"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg"
@@ -121,12 +127,12 @@ else
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(10, "class", "rounded-circle");
+            __builder.AddAttribute(16, "class", "rounded-circle");
             __builder.CloseElement();
             __builder.CloseElement();
-            __builder.AddMarkupContent(11, "\r\n                    ");
-            __builder.OpenElement(12, "td");
-            __builder.AddContent(13, 
+            __builder.AddMarkupContent(17, "\r\n                    ");
+            __builder.OpenElement(18, "td");
+            __builder.AddContent(19, 
 #nullable restore
 #line 26 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
                          employee.EmployeeId
@@ -136,9 +142,9 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(14, "\r\n                    ");
-            __builder.OpenElement(15, "td");
-            __builder.AddContent(16, 
+            __builder.AddMarkupContent(20, "\r\n                    ");
+            __builder.OpenElement(21, "td");
+            __builder.AddContent(22, 
 #nullable restore
 #line 27 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
                          employee.FirstName
@@ -148,9 +154,9 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(17, "\r\n                    ");
-            __builder.OpenElement(18, "td");
-            __builder.AddContent(19, 
+            __builder.AddMarkupContent(23, "\r\n                    ");
+            __builder.OpenElement(24, "td");
+            __builder.AddContent(25, 
 #nullable restore
 #line 28 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
                          employee.LastName
@@ -160,10 +166,10 @@ else
 #nullable disable
             );
             __builder.CloseElement();
-            __builder.AddMarkupContent(20, "\r\n                    ");
-            __builder.OpenElement(21, "td");
-            __builder.OpenElement(22, "a");
-            __builder.AddAttribute(23, "href", 
+            __builder.AddMarkupContent(26, "\r\n                    ");
+            __builder.OpenElement(27, "td");
+            __builder.OpenElement(28, "a");
+            __builder.AddAttribute(29, "href", 
 #nullable restore
 #line 29 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
                                    $"employeedetail/{employee.EmployeeId}"
@@ -172,11 +178,13 @@ else
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(24, "class", "btn btn-primary table-btn");
-            __builder.AddMarkupContent(25, "<i class=\"fas fa-info-circle\"></i>");
+            __builder.AddAttribute(30, "class", "btn btn-primary table-btn");
+            __builder.AddMarkupContent(31, "<i class=\"fas fa-info-circle\"></i>");
             __builder.CloseElement();
             __builder.CloseElement();
+            __builder.AddMarkupContent(32, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(33, "\r\n");
 #nullable restore
 #line 31 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
             }
@@ -184,8 +192,11 @@ else
 #line default
 #line hidden
 #nullable disable
+            __builder.AddContent(34, "        ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(35, "\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(36, "\r\n");
 #nullable restore
 #line 34 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeOverview.razor"
 }

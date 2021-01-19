@@ -75,6 +75,13 @@ using BethanysPieShopHRM.App.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeEdit.razor"
+using BethanysPieShopHRM.Shared;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/employeeedit")]
     [Microsoft.AspNetCore.Components.RouteAttribute("/employeeedit/{EmployeeId}")]
     public partial class EmployeeEdit : Microsoft.AspNetCore.Components.ComponentBase

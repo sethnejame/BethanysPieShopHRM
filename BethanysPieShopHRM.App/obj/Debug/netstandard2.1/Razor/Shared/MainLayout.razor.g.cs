@@ -80,18 +80,26 @@ using BethanysPieShopHRM.App.Shared;
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "d-flex");
             __builder.AddAttribute(2, "id", "wrapper");
-            __builder.OpenComponent<BethanysPieShopHRM.App.Shared.NavMenu>(3);
+            __builder.AddMarkupContent(3, "\r\n\r\n    ");
+            __builder.OpenComponent<BethanysPieShopHRM.App.Shared.NavMenu>(4);
             __builder.CloseComponent();
-            __builder.AddMarkupContent(4, "\r\n\r\n    ");
-            __builder.OpenElement(5, "div");
-            __builder.AddAttribute(6, "id", "page-content-wrapper");
-            __builder.AddMarkupContent(7, @"<nav class=""navbar navbar-expand-lg navbar-light border-bottom""><div class=""collapse navbar-collapse"" id=""navbarSupportedContent""><h3 class=""title"">Bethany's Pie Shop HRM </h3>
-                <ul class=""navbar-nav ml-auto mt-2 mt-lg-0""></ul></div></nav>
+            __builder.AddMarkupContent(5, "\r\n\r\n    ");
+            __builder.OpenElement(6, "div");
+            __builder.AddAttribute(7, "id", "page-content-wrapper");
+            __builder.AddMarkupContent(8, "\r\n\r\n        ");
+            __builder.AddMarkupContent(9, @"<nav class=""navbar navbar-expand-lg navbar-light border-bottom"">
+            <div class=""collapse navbar-collapse"" id=""navbarSupportedContent"">
+                <h3 class=""title"">Bethany's Pie Shop HRM </h3>
+                <ul class=""navbar-nav ml-auto mt-2 mt-lg-0"">
+                </ul>
+            </div>
+        </nav>
 
         ");
-            __builder.OpenElement(8, "div");
-            __builder.AddAttribute(9, "class", "container-fluid");
-            __builder.AddContent(10, 
+            __builder.OpenElement(10, "div");
+            __builder.AddAttribute(11, "class", "container-fluid");
+            __builder.AddMarkupContent(12, "\r\n\r\n            ");
+            __builder.AddContent(13, 
 #nullable restore
 #line 18 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Shared\MainLayout.razor"
              Body
@@ -100,8 +108,11 @@ using BethanysPieShopHRM.App.Shared;
 #line hidden
 #nullable disable
             );
+            __builder.AddMarkupContent(14, "\r\n\r\n        ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(15, "\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(16, "\r\n\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

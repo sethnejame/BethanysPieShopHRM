@@ -104,10 +104,12 @@ using BethanysPieShopHRM.App.Shared;
             __builder.AddMarkupContent(6, "\r\n\r\n");
             __builder.OpenElement(7, "div");
             __builder.AddAttribute(8, "class", "col-12 row");
-            __builder.OpenElement(9, "div");
-            __builder.AddAttribute(10, "class", "col-2");
-            __builder.OpenElement(11, "img");
-            __builder.AddAttribute(12, "src", 
+            __builder.AddMarkupContent(9, "\r\n    ");
+            __builder.OpenElement(10, "div");
+            __builder.AddAttribute(11, "class", "col-2");
+            __builder.AddMarkupContent(12, "\r\n        ");
+            __builder.OpenElement(13, "img");
+            __builder.AddAttribute(14, "src", 
 #nullable restore
 #line 7 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                     $"https://gillcleerenpluralsight.blob.core.windows.net/person/{Employee.EmployeeId}.jpg"
@@ -116,23 +118,28 @@ using BethanysPieShopHRM.App.Shared;
 #line hidden
 #nullable disable
             );
-            __builder.AddAttribute(13, "class", "img-responsive rounded-circle employee-detail-img");
+            __builder.AddAttribute(15, "class", "img-responsive rounded-circle employee-detail-img");
             __builder.CloseElement();
+            __builder.AddMarkupContent(16, "\r\n    ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(14, "\r\n    ");
-            __builder.OpenElement(15, "div");
-            __builder.AddAttribute(16, "class", "col-10 row");
-            __builder.OpenElement(17, "div");
-            __builder.AddAttribute(18, "class", "col-xs-12 col-sm-8");
-            __builder.OpenElement(19, "div");
-            __builder.AddAttribute(20, "class", "form-group row");
-            __builder.AddMarkupContent(21, "<label class=\"col-sm-4 col-form-label\">Employee ID</label>\r\n                ");
-            __builder.OpenElement(22, "div");
-            __builder.AddAttribute(23, "class", "col-sm-8");
-            __builder.OpenElement(24, "label");
-            __builder.AddAttribute(25, "type", "text");
-            __builder.AddAttribute(26, "class", "form-control-plaintext");
-            __builder.AddContent(27, 
+            __builder.AddMarkupContent(17, "\r\n    ");
+            __builder.OpenElement(18, "div");
+            __builder.AddAttribute(19, "class", "col-10 row");
+            __builder.AddMarkupContent(20, "\r\n        ");
+            __builder.OpenElement(21, "div");
+            __builder.AddAttribute(22, "class", "col-xs-12 col-sm-8");
+            __builder.AddMarkupContent(23, "\r\n            ");
+            __builder.OpenElement(24, "div");
+            __builder.AddAttribute(25, "class", "form-group row");
+            __builder.AddMarkupContent(26, "\r\n                ");
+            __builder.AddMarkupContent(27, "<label class=\"col-sm-4 col-form-label\">Employee ID</label>\r\n                ");
+            __builder.OpenElement(28, "div");
+            __builder.AddAttribute(29, "class", "col-sm-8");
+            __builder.AddMarkupContent(30, "\r\n                    ");
+            __builder.OpenElement(31, "label");
+            __builder.AddAttribute(32, "type", "text");
+            __builder.AddAttribute(33, "class", "form-control-plaintext");
+            __builder.AddContent(34, 
 #nullable restore
 #line 14 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                        Employee.EmployeeId
@@ -142,19 +149,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(35, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(36, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(28, "\r\n            ");
-            __builder.OpenElement(29, "div");
-            __builder.AddAttribute(30, "class", "form-group row");
-            __builder.AddMarkupContent(31, "<label class=\"col-sm-4 col-form-label\">First name</label>\r\n                ");
-            __builder.OpenElement(32, "div");
-            __builder.AddAttribute(33, "class", "col-sm-8");
-            __builder.OpenElement(34, "label");
-            __builder.AddAttribute(35, "type", "text");
-            __builder.AddAttribute(36, "readonly", true);
-            __builder.AddAttribute(37, "class", "form-control-plaintext");
-            __builder.AddContent(38, 
+            __builder.AddMarkupContent(37, "\r\n            ");
+            __builder.OpenElement(38, "div");
+            __builder.AddAttribute(39, "class", "form-group row");
+            __builder.AddMarkupContent(40, "\r\n                ");
+            __builder.AddMarkupContent(41, "<label class=\"col-sm-4 col-form-label\">First name</label>\r\n                ");
+            __builder.OpenElement(42, "div");
+            __builder.AddAttribute(43, "class", "col-sm-8");
+            __builder.AddMarkupContent(44, "\r\n                    ");
+            __builder.OpenElement(45, "label");
+            __builder.AddAttribute(46, "type", "text");
+            __builder.AddAttribute(47, "readonly", true);
+            __builder.AddAttribute(48, "class", "form-control-plaintext");
+            __builder.AddContent(49, 
 #nullable restore
 #line 20 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.FirstName
@@ -164,19 +175,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(50, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(51, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(39, "\r\n\r\n            ");
-            __builder.OpenElement(40, "div");
-            __builder.AddAttribute(41, "class", "form-group row");
-            __builder.AddMarkupContent(42, "<label class=\"col-sm-4 col-form-label\">Last name</label>\r\n                ");
-            __builder.OpenElement(43, "div");
-            __builder.AddAttribute(44, "class", "col-sm-8");
-            __builder.OpenElement(45, "label");
-            __builder.AddAttribute(46, "type", "text");
-            __builder.AddAttribute(47, "readonly", true);
-            __builder.AddAttribute(48, "class", "form-control-plaintext");
-            __builder.AddContent(49, 
+            __builder.AddMarkupContent(52, "\r\n\r\n            ");
+            __builder.OpenElement(53, "div");
+            __builder.AddAttribute(54, "class", "form-group row");
+            __builder.AddMarkupContent(55, "\r\n                ");
+            __builder.AddMarkupContent(56, "<label class=\"col-sm-4 col-form-label\">Last name</label>\r\n                ");
+            __builder.OpenElement(57, "div");
+            __builder.AddAttribute(58, "class", "col-sm-8");
+            __builder.AddMarkupContent(59, "\r\n                    ");
+            __builder.OpenElement(60, "label");
+            __builder.AddAttribute(61, "type", "text");
+            __builder.AddAttribute(62, "readonly", true);
+            __builder.AddAttribute(63, "class", "form-control-plaintext");
+            __builder.AddContent(64, 
 #nullable restore
 #line 27 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.LastName
@@ -186,19 +201,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(65, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(66, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(50, "\r\n\r\n            ");
-            __builder.OpenElement(51, "div");
-            __builder.AddAttribute(52, "class", "form-group row");
-            __builder.AddMarkupContent(53, "<label class=\"col-sm-4 col-form-label\">Birthdate</label>\r\n                ");
-            __builder.OpenElement(54, "div");
-            __builder.AddAttribute(55, "class", "col-sm-8");
-            __builder.OpenElement(56, "label");
-            __builder.AddAttribute(57, "type", "text");
-            __builder.AddAttribute(58, "readonly", true);
-            __builder.AddAttribute(59, "class", "form-control-plaintext");
-            __builder.AddContent(60, 
+            __builder.AddMarkupContent(67, "\r\n\r\n            ");
+            __builder.OpenElement(68, "div");
+            __builder.AddAttribute(69, "class", "form-group row");
+            __builder.AddMarkupContent(70, "\r\n                ");
+            __builder.AddMarkupContent(71, "<label class=\"col-sm-4 col-form-label\">Birthdate</label>\r\n                ");
+            __builder.OpenElement(72, "div");
+            __builder.AddAttribute(73, "class", "col-sm-8");
+            __builder.AddMarkupContent(74, "\r\n                    ");
+            __builder.OpenElement(75, "label");
+            __builder.AddAttribute(76, "type", "text");
+            __builder.AddAttribute(77, "readonly", true);
+            __builder.AddAttribute(78, "class", "form-control-plaintext");
+            __builder.AddContent(79, 
 #nullable restore
 #line 34 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.BirthDate.ToShortDateString()
@@ -208,19 +227,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(80, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(81, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(61, "\r\n\r\n            ");
-            __builder.OpenElement(62, "div");
-            __builder.AddAttribute(63, "class", "form-group row");
-            __builder.AddMarkupContent(64, "<label class=\"col-sm-4 col-form-label\">Email</label>\r\n                ");
-            __builder.OpenElement(65, "div");
-            __builder.AddAttribute(66, "class", "col-sm-8");
-            __builder.OpenElement(67, "label");
-            __builder.AddAttribute(68, "type", "text");
-            __builder.AddAttribute(69, "readonly", true);
-            __builder.AddAttribute(70, "class", "form-control-plaintext");
-            __builder.AddContent(71, 
+            __builder.AddMarkupContent(82, "\r\n\r\n            ");
+            __builder.OpenElement(83, "div");
+            __builder.AddAttribute(84, "class", "form-group row");
+            __builder.AddMarkupContent(85, "\r\n                ");
+            __builder.AddMarkupContent(86, "<label class=\"col-sm-4 col-form-label\">Email</label>\r\n                ");
+            __builder.OpenElement(87, "div");
+            __builder.AddAttribute(88, "class", "col-sm-8");
+            __builder.AddMarkupContent(89, "\r\n                    ");
+            __builder.OpenElement(90, "label");
+            __builder.AddAttribute(91, "type", "text");
+            __builder.AddAttribute(92, "readonly", true);
+            __builder.AddAttribute(93, "class", "form-control-plaintext");
+            __builder.AddContent(94, 
 #nullable restore
 #line 41 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.Email
@@ -230,19 +253,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(95, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(96, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(72, "\r\n\r\n            ");
-            __builder.OpenElement(73, "div");
-            __builder.AddAttribute(74, "class", "form-group row");
-            __builder.AddMarkupContent(75, "<label class=\"col-sm-4 col-form-label\">Street</label>\r\n                ");
-            __builder.OpenElement(76, "div");
-            __builder.AddAttribute(77, "class", "col-sm-8");
-            __builder.OpenElement(78, "label");
-            __builder.AddAttribute(79, "type", "text");
-            __builder.AddAttribute(80, "readonly", true);
-            __builder.AddAttribute(81, "class", "form-control-plaintext");
-            __builder.AddContent(82, 
+            __builder.AddMarkupContent(97, "\r\n\r\n            ");
+            __builder.OpenElement(98, "div");
+            __builder.AddAttribute(99, "class", "form-group row");
+            __builder.AddMarkupContent(100, "\r\n                ");
+            __builder.AddMarkupContent(101, "<label class=\"col-sm-4 col-form-label\">Street</label>\r\n                ");
+            __builder.OpenElement(102, "div");
+            __builder.AddAttribute(103, "class", "col-sm-8");
+            __builder.AddMarkupContent(104, "\r\n                    ");
+            __builder.OpenElement(105, "label");
+            __builder.AddAttribute(106, "type", "text");
+            __builder.AddAttribute(107, "readonly", true);
+            __builder.AddAttribute(108, "class", "form-control-plaintext");
+            __builder.AddContent(109, 
 #nullable restore
 #line 48 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.Street
@@ -252,19 +279,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(110, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(111, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(83, "\r\n\r\n            ");
-            __builder.OpenElement(84, "div");
-            __builder.AddAttribute(85, "class", "form-group row");
-            __builder.AddMarkupContent(86, "<label class=\"col-sm-4 col-form-label\">Zip</label>\r\n                ");
-            __builder.OpenElement(87, "div");
-            __builder.AddAttribute(88, "class", "col-sm-8");
-            __builder.OpenElement(89, "label");
-            __builder.AddAttribute(90, "type", "text");
-            __builder.AddAttribute(91, "readonly", true);
-            __builder.AddAttribute(92, "class", "form-control-plaintext");
-            __builder.AddContent(93, 
+            __builder.AddMarkupContent(112, "\r\n\r\n            ");
+            __builder.OpenElement(113, "div");
+            __builder.AddAttribute(114, "class", "form-group row");
+            __builder.AddMarkupContent(115, "\r\n                ");
+            __builder.AddMarkupContent(116, "<label class=\"col-sm-4 col-form-label\">Zip</label>\r\n                ");
+            __builder.OpenElement(117, "div");
+            __builder.AddAttribute(118, "class", "col-sm-8");
+            __builder.AddMarkupContent(119, "\r\n                    ");
+            __builder.OpenElement(120, "label");
+            __builder.AddAttribute(121, "type", "text");
+            __builder.AddAttribute(122, "readonly", true);
+            __builder.AddAttribute(123, "class", "form-control-plaintext");
+            __builder.AddContent(124, 
 #nullable restore
 #line 55 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.Zip
@@ -274,19 +305,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(125, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(126, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(94, "\r\n\r\n            ");
-            __builder.OpenElement(95, "div");
-            __builder.AddAttribute(96, "class", "form-group row");
-            __builder.AddMarkupContent(97, "<label class=\"col-sm-4 col-form-label\">City</label>\r\n                ");
-            __builder.OpenElement(98, "div");
-            __builder.AddAttribute(99, "class", "col-sm-8");
-            __builder.OpenElement(100, "label");
-            __builder.AddAttribute(101, "type", "text");
-            __builder.AddAttribute(102, "readonly", true);
-            __builder.AddAttribute(103, "class", "form-control-plaintext");
-            __builder.AddContent(104, 
+            __builder.AddMarkupContent(127, "\r\n\r\n            ");
+            __builder.OpenElement(128, "div");
+            __builder.AddAttribute(129, "class", "form-group row");
+            __builder.AddMarkupContent(130, "\r\n                ");
+            __builder.AddMarkupContent(131, "<label class=\"col-sm-4 col-form-label\">City</label>\r\n                ");
+            __builder.OpenElement(132, "div");
+            __builder.AddAttribute(133, "class", "col-sm-8");
+            __builder.AddMarkupContent(134, "\r\n                    ");
+            __builder.OpenElement(135, "label");
+            __builder.AddAttribute(136, "type", "text");
+            __builder.AddAttribute(137, "readonly", true);
+            __builder.AddAttribute(138, "class", "form-control-plaintext");
+            __builder.AddContent(139, 
 #nullable restore
 #line 62 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.City
@@ -296,19 +331,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(140, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(141, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(105, "\r\n\r\n            ");
-            __builder.OpenElement(106, "div");
-            __builder.AddAttribute(107, "class", "form-group row");
-            __builder.AddMarkupContent(108, "<label class=\"col-sm-4 col-form-label\">Phone number</label>\r\n                ");
-            __builder.OpenElement(109, "div");
-            __builder.AddAttribute(110, "class", "col-sm-8");
-            __builder.OpenElement(111, "label");
-            __builder.AddAttribute(112, "type", "text");
-            __builder.AddAttribute(113, "readonly", true);
-            __builder.AddAttribute(114, "class", "form-control-plaintext");
-            __builder.AddContent(115, 
+            __builder.AddMarkupContent(142, "\r\n\r\n            ");
+            __builder.OpenElement(143, "div");
+            __builder.AddAttribute(144, "class", "form-group row");
+            __builder.AddMarkupContent(145, "\r\n                ");
+            __builder.AddMarkupContent(146, "<label class=\"col-sm-4 col-form-label\">Phone number</label>\r\n                ");
+            __builder.OpenElement(147, "div");
+            __builder.AddAttribute(148, "class", "col-sm-8");
+            __builder.AddMarkupContent(149, "\r\n                    ");
+            __builder.OpenElement(150, "label");
+            __builder.AddAttribute(151, "type", "text");
+            __builder.AddAttribute(152, "readonly", true);
+            __builder.AddAttribute(153, "class", "form-control-plaintext");
+            __builder.AddContent(154, 
 #nullable restore
 #line 69 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.PhoneNumber
@@ -318,19 +357,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(155, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(156, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(116, "\r\n\r\n            ");
-            __builder.OpenElement(117, "div");
-            __builder.AddAttribute(118, "class", "form-group row");
-            __builder.AddMarkupContent(119, "<label class=\"col-sm-4 col-form-label\">Gender</label>\r\n                ");
-            __builder.OpenElement(120, "div");
-            __builder.AddAttribute(121, "class", "col-sm-8");
-            __builder.OpenElement(122, "label");
-            __builder.AddAttribute(123, "type", "text");
-            __builder.AddAttribute(124, "readonly", true);
-            __builder.AddAttribute(125, "class", "form-control-plaintext");
-            __builder.AddContent(126, 
+            __builder.AddMarkupContent(157, "\r\n\r\n            ");
+            __builder.OpenElement(158, "div");
+            __builder.AddAttribute(159, "class", "form-group row");
+            __builder.AddMarkupContent(160, "\r\n                ");
+            __builder.AddMarkupContent(161, "<label class=\"col-sm-4 col-form-label\">Gender</label>\r\n                ");
+            __builder.OpenElement(162, "div");
+            __builder.AddAttribute(163, "class", "col-sm-8");
+            __builder.AddMarkupContent(164, "\r\n                    ");
+            __builder.OpenElement(165, "label");
+            __builder.AddAttribute(166, "type", "text");
+            __builder.AddAttribute(167, "readonly", true);
+            __builder.AddAttribute(168, "class", "form-control-plaintext");
+            __builder.AddContent(169, 
 #nullable restore
 #line 76 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.Gender
@@ -340,14 +383,18 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(170, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(171, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(127, "\r\n\r\n            ");
-            __builder.OpenElement(128, "div");
-            __builder.AddAttribute(129, "class", "form-group row");
-            __builder.AddMarkupContent(130, "<label class=\"col-sm-4 col-form-label\">Smoker</label>\r\n                ");
-            __builder.OpenElement(131, "div");
-            __builder.AddAttribute(132, "class", "col-sm-8");
+            __builder.AddMarkupContent(172, "\r\n\r\n            ");
+            __builder.OpenElement(173, "div");
+            __builder.AddAttribute(174, "class", "form-group row");
+            __builder.AddMarkupContent(175, "\r\n                ");
+            __builder.AddMarkupContent(176, "<label class=\"col-sm-4 col-form-label\">Smoker</label>\r\n                ");
+            __builder.OpenElement(177, "div");
+            __builder.AddAttribute(178, "class", "col-sm-8");
+            __builder.AddMarkupContent(179, "\r\n\r\n");
 #nullable restore
 #line 84 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                      if (Employee.Smoker)
@@ -356,7 +403,8 @@ using BethanysPieShopHRM.App.Shared;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(133, "<label type=\"text\" readonly class=\"form-control-plaintext\">Yes</label>");
+            __builder.AddContent(180, "                        ");
+            __builder.AddMarkupContent(181, "<label type=\"text\" readonly class=\"form-control-plaintext\">Yes</label>\r\n");
 #nullable restore
 #line 87 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                     }
@@ -366,7 +414,8 @@ using BethanysPieShopHRM.App.Shared;
 #line default
 #line hidden
 #nullable disable
-            __builder.AddMarkupContent(134, "<label type=\"text\" readonly class=\"form-control-plaintext\">No</label>");
+            __builder.AddContent(182, "                        ");
+            __builder.AddMarkupContent(183, "<label type=\"text\" readonly class=\"form-control-plaintext\">No</label>\r\n");
 #nullable restore
 #line 91 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
 
@@ -375,19 +424,23 @@ using BethanysPieShopHRM.App.Shared;
 #line default
 #line hidden
 #nullable disable
+            __builder.AddContent(184, "                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(185, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(135, "\r\n\r\n            ");
-            __builder.OpenElement(136, "div");
-            __builder.AddAttribute(137, "class", "form-group row");
-            __builder.AddMarkupContent(138, "<label class=\"col-sm-4 col-form-label\">Joined us</label>\r\n                ");
-            __builder.OpenElement(139, "div");
-            __builder.AddAttribute(140, "class", "col-sm-8");
-            __builder.OpenElement(141, "label");
-            __builder.AddAttribute(142, "type", "text");
-            __builder.AddAttribute(143, "readonly", true);
-            __builder.AddAttribute(144, "class", "form-control-plaintext");
-            __builder.AddContent(145, 
+            __builder.AddMarkupContent(186, "\r\n\r\n            ");
+            __builder.OpenElement(187, "div");
+            __builder.AddAttribute(188, "class", "form-group row");
+            __builder.AddMarkupContent(189, "\r\n                ");
+            __builder.AddMarkupContent(190, "<label class=\"col-sm-4 col-form-label\">Joined us</label>\r\n                ");
+            __builder.OpenElement(191, "div");
+            __builder.AddAttribute(192, "class", "col-sm-8");
+            __builder.AddMarkupContent(193, "\r\n                    ");
+            __builder.OpenElement(194, "label");
+            __builder.AddAttribute(195, "type", "text");
+            __builder.AddAttribute(196, "readonly", true);
+            __builder.AddAttribute(197, "class", "form-control-plaintext");
+            __builder.AddContent(198, 
 #nullable restore
 #line 99 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.JoinedDate?.ToShortDateString()
@@ -397,19 +450,23 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(199, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(200, "\r\n            ");
             __builder.CloseElement();
-            __builder.AddMarkupContent(146, "\r\n\r\n            ");
-            __builder.OpenElement(147, "div");
-            __builder.AddAttribute(148, "class", "form-group row");
-            __builder.AddMarkupContent(149, "<label class=\"col-sm-4 col-form-label\">Left us</label>\r\n                ");
-            __builder.OpenElement(150, "div");
-            __builder.AddAttribute(151, "class", "col-sm-8");
-            __builder.OpenElement(152, "label");
-            __builder.AddAttribute(153, "type", "text");
-            __builder.AddAttribute(154, "readonly", true);
-            __builder.AddAttribute(155, "class", "form-control-plaintext");
-            __builder.AddContent(156, 
+            __builder.AddMarkupContent(201, "\r\n\r\n            ");
+            __builder.OpenElement(202, "div");
+            __builder.AddAttribute(203, "class", "form-group row");
+            __builder.AddMarkupContent(204, "\r\n                ");
+            __builder.AddMarkupContent(205, "<label class=\"col-sm-4 col-form-label\">Left us</label>\r\n                ");
+            __builder.OpenElement(206, "div");
+            __builder.AddAttribute(207, "class", "col-sm-8");
+            __builder.AddMarkupContent(208, "\r\n                    ");
+            __builder.OpenElement(209, "label");
+            __builder.AddAttribute(210, "type", "text");
+            __builder.AddAttribute(211, "readonly", true);
+            __builder.AddAttribute(212, "class", "form-control-plaintext");
+            __builder.AddContent(213, 
 #nullable restore
 #line 106 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                                                 Employee.ExitDate?.ToShortDateString()
@@ -419,10 +476,15 @@ using BethanysPieShopHRM.App.Shared;
 #nullable disable
             );
             __builder.CloseElement();
+            __builder.AddMarkupContent(214, "\r\n                ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(215, "\r\n            ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(216, "\r\n        ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(217, "\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(218, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998

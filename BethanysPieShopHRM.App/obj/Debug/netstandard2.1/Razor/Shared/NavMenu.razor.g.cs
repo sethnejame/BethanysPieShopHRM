@@ -80,14 +80,24 @@ using BethanysPieShopHRM.App.Shared;
             __builder.OpenElement(0, "div");
             __builder.AddAttribute(1, "class", "bg-light");
             __builder.AddAttribute(2, "id", "sidebar-wrapper");
-            __builder.AddMarkupContent(3, "<div class=\"sidebar-logo\"><img class=\"img-responsive\" id=\"logo\" src=\"images/bethanylogo.png\"></div>\r\n    ");
-            __builder.AddMarkupContent(4, "<div class=\"profile\"><div class=\"profile-bg\"><img class=\"img-responsive\" src=\"images/profilePicture.jpg\"></div>\r\n        <div class=\"profile-picture\"><img class=\"img-responsive circle account-photo\" src=\"images/profilePicture.jpg\"></div></div>\r\n    ");
-            __builder.OpenElement(5, "div");
-            __builder.AddAttribute(6, "class", "menu list-group list-group-flush");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(7);
-            __builder.AddAttribute(8, "class", "list-group-item list-group-item-action bg-light");
-            __builder.AddAttribute(9, "href", "/");
-            __builder.AddAttribute(10, "Match", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
+            __builder.AddMarkupContent(3, "\r\n    ");
+            __builder.AddMarkupContent(4, "<div class=\"sidebar-logo\">\r\n        <img class=\"img-responsive\" id=\"logo\" src=\"images/bethanylogo.png\">\r\n    </div>\r\n    ");
+            __builder.AddMarkupContent(5, @"<div class=""profile"">
+        <div class=""profile-bg"">
+            <img class=""img-responsive"" src=""images/profilePicture.jpg"">
+        </div>
+        <div class=""profile-picture"">
+            <img class=""img-responsive circle account-photo"" src=""images/profilePicture.jpg"">
+        </div>
+    </div>
+    ");
+            __builder.OpenElement(6, "div");
+            __builder.AddAttribute(7, "class", "menu list-group list-group-flush");
+            __builder.AddMarkupContent(8, "\r\n        ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(9);
+            __builder.AddAttribute(10, "class", "list-group-item list-group-item-action bg-light");
+            __builder.AddAttribute(11, "href", "/");
+            __builder.AddAttribute(12, "Match", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<Microsoft.AspNetCore.Components.Routing.NavLinkMatch>(
 #nullable restore
 #line 14 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Shared\NavMenu.razor"
                                                                                          NavLinkMatch.All
@@ -96,21 +106,23 @@ using BethanysPieShopHRM.App.Shared;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(11, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(12, "<span class=\"oi oi-home\" aria-hidden=\"true\"></span> Home\r\n        ");
+            __builder.AddAttribute(13, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(14, "\r\n            <span class=\"oi oi-home\" aria-hidden=\"true\"></span> Home\r\n        ");
             }
             ));
             __builder.CloseComponent();
-            __builder.AddMarkupContent(13, "\r\n        ");
-            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(14);
-            __builder.AddAttribute(15, "class", "list-group-item list-group-item-action bg-light");
-            __builder.AddAttribute(16, "href", "/employeeoverview");
-            __builder.AddAttribute(17, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
-                __builder2.AddMarkupContent(18, "<span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Employees\r\n        ");
+            __builder.AddMarkupContent(15, "\r\n        ");
+            __builder.OpenComponent<Microsoft.AspNetCore.Components.Routing.NavLink>(16);
+            __builder.AddAttribute(17, "class", "list-group-item list-group-item-action bg-light");
+            __builder.AddAttribute(18, "href", "/employeeoverview");
+            __builder.AddAttribute(19, "ChildContent", (Microsoft.AspNetCore.Components.RenderFragment)((__builder2) => {
+                __builder2.AddMarkupContent(20, "\r\n            <span class=\"oi oi-list-rich\" aria-hidden=\"true\"></span> Employees\r\n        ");
             }
             ));
             __builder.CloseComponent();
+            __builder.AddMarkupContent(21, "\r\n\r\n    ");
             __builder.CloseElement();
+            __builder.AddMarkupContent(22, "\r\n");
             __builder.CloseElement();
         }
         #pragma warning restore 1998
