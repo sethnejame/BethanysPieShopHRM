@@ -13,13 +13,12 @@ namespace BethanysPieShopHRM.App.Pages
         public IEnumerable<Employee> Employees { get; set; }
 
         [Inject]
-        public IEmployeeDataService EmployeeDataService { get; set; }
+        public IEmployeeService EmployeeService { get; set; }
 
         protected async override Task OnInitializedAsync()
         {
-            Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
+            Employees = (await EmployeeService.GetAllEmployees()).ToList();
    
         }
-
     }
 }

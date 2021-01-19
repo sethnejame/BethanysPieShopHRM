@@ -6,13 +6,13 @@ using BethanysPieShopHRM.Shared;
 
 namespace BethanysPieShopHRM.App.Services
 {
-    public  interface IEmployeeDataService
+    public  interface IEmployeeService
     {
         Task<IEnumerable<Employee>> GetAllEmployees();
 
-        Task<Employee> GetEmployeeDetails(int employeeId);
+        Task<Employee> GetEmployee(int employeeId);
 
-        Task<Employee> AddEmployeeDetails(Employee employee);
+        Task<Employee> AddEmployee(Employee employee);
 
         Task UpdateEmployee(Employee employee);
 

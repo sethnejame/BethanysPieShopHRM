@@ -16,11 +16,11 @@ namespace BethanysPieShopHRM.App.Pages
 		public Employee Employee { get; set; } = new Employee();
 
 		[Inject]
-        public IEmployeeDataService EmployeeDataService { get; set; }
+        public IEmployeeService EmployeeService { get; set; }
 
         protected async override Task OnInitializedAsync()
 		{
-			Employee = await EmployeeDataService.GetEmployeeDetails(int.Parse(EmployeeId));
+			Employee = await EmployeeService.GetEmployee(int.Parse(EmployeeId));
 		}
 	}
 }

@@ -370,6 +370,6 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.Http.dll.br
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\RazorDeclaration\Pages\EmployeeEdit.razor.g.cs
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\Razor\Pages\EmployeeEdit.razor.g.cs
-D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\gPvUTq6ZlVa2b9an3nQ24x9B_PxP0wrj0qysjMLuZ8o=.hash
-D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\VoRN23aS-yX0_sn4c2I8T5D0Q1F10GcK5aWo7gfoO2o=.hash
-D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\l8zHJ3SFqmUhbeKg__f8ZTr6lkfh-lp1W7NTUnVgUR8=.hash
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\jU4tYl9vcn7HQX6Avxy9tD759DPDhWxXqv3z7hG5KQY=.hash
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\gDXZx8_AReNvMtaCkBackcdFYvHZOwQrqB7kQkfyrKo=.hash
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netstandard2.1\integrity\364hiBcTXULX6Z6Yz7ozq3FTiZd29uiXeecauvEgKAA=.hash
