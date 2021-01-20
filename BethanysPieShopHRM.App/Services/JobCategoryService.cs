@@ -23,10 +23,10 @@ namespace BethanysPieShopHRM.App.Services
                 (await _httpClient.GetStreamAsync($"api/jobcategory"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
-        public async Task<JobCategory> GetJobCategoryById(int JobCategoryId)
+        public async Task<JobCategory> GetJobCategoryById(int jobCategoryId)
         {
             return await JsonSerializer.DeserializeAsync<JobCategory>
-               (await _httpClient.GetStreamAsync($"api/jobcategory/{JobCategoryId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
+               (await _httpClient.GetStreamAsync($"api/jobcategory/{jobCategoryId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
     }
 }

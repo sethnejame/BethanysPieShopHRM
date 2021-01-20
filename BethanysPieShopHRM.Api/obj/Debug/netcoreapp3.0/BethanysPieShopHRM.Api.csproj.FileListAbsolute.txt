@@ -40,3 +40,4 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\BethanysPieShopHRM.Api.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\BethanysPieShopHRM.Api.pdb
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\BethanysPieShopHRM.Api.genruntimeconfig.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll

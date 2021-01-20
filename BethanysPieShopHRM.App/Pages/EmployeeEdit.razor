@@ -8,14 +8,18 @@
     <section class="employee-edit">
 	    <h1 class="page-title">Details for @Employee.FirstName @Employee.LastName</h1>
         <EditForm Model="@Employee" OnValidSubmit="@HandleValidSubmit" OnInvalidSubmit="@HandleInvalidSubmit">
+            <DataAnnotationsValidator />
+            <ValidationSummary></ValidationSummary>
             <div class="form-group row">
                 <label for="lastName" class="col-sm-3">Last name: </label>
                 <InputText id="lastName" class="form-control col-sm-8" @bind-Value="@Employee.LastName" placeholder="Enter last name" />
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Employee.LastName)" />
             </div>
 
             <div class="form-group row">
                 <label for="firstName" class="col-sm-3">First name: </label>
                 <InputText id="firstName" class="form-control col-sm-8" @bind-Value="@Employee.FirstName" placeholder="Enter first name" />
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Employee.FirstName)" />
             </div>
 
             <div class="form-group row">
@@ -25,6 +29,7 @@
             <div class="form-group row">
                 <label for="email" class="col-sm-3">Email: </label>
                 <InputText id="email" class="form-control col-sm-8" @bind-Value="@Employee.Email" placeholder="Enter email" />
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Employee.Email)" />
             </div>
 
             <div class="form-group row">
@@ -76,7 +81,7 @@
 
             <div class="form-group row">
                 <label for="jobcategory" class="col-sm-3">Job Category: </label>
-                <InputSelect id="jobCategory" @bind-Value="@JobCategoryId" class="form-control col-sm-8">
+                <InputSelect id="jobcategory" @bind-Value="@JobCategoryId" class="form-control col-sm-8">
                     @foreach (var jobCategory in JobCategories)
                     {
                         <option value="@jobCategory.JobCategoryId">@jobCategory.JobCategoryName</option>
@@ -115,9 +120,19 @@
             <div class="form-group row">
                 <label for="comment" class="col-sm-3">Comment: </label>
                 <InputTextArea id="comment" class="form-control col-sm-8" @bind-Value="@Employee.Comment" placeholder="Leave a comment" />
+                <ValidationMessage class="offset-sm-3 col-sm-8" For="@(() => Employee.Comment)" />
             </div>
 
             <button type="submit" class="btn btn-primary edit-btn">Save</button>
+
+            @if (Employee.EmployeeId > 0)
+            {
+                <a class="btn btn-danger" @onclick="@DeleteEmployee">
+                    Delete
+                </a>
+            }
+
+            <a class="btn btn-outline-primary" @onclick="@NavigateToOverview">Back to overview</a>
         </EditForm>
     </section>
 }

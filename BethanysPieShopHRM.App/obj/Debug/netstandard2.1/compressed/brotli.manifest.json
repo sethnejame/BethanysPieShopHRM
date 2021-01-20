@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\jU4tYl9vcn7HQX6Avxy9tD759DPDhWxXqv3z7hG5KQY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rWYoUhpLCItsLj7AHjDnmxbZvPH4VGFqZR6-eHffF3A=.hash",
       "Source": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BethanysPieShopHRM.App.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BethanysPieShopHRM.App.dll.br"
     },
@@ -211,7 +211,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-0ZNwJZZE-67n5JLUZ9oWhXna4p4ZLN8WfuuamZkfTw=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9nm_mnA7tQrxlTehan0BpGBhjBxlnv5ONKe1tq4Gvc4=.hash",
       "Source": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BethanysPieShopHRM.shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BethanysPieShopHRM.shared.dll.br"
     },
@@ -266,12 +266,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gDXZx8_AReNvMtaCkBackcdFYvHZOwQrqB7kQkfyrKo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\BxGsO-HJE4Xy8nHK1bSZ-M3h97UzDuupGrUrqjTW0gY=.hash",
       "Source": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BethanysPieShopHRM.App.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BethanysPieShopHRM.App.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\9rPgjzZNKE-6fog7siTfnFKm1qwac3j4hS6FZ3Z7Ew4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PVW5B9Hf8V7wtioVMh7eCRYyJAZFopls1aBGBvjVW98=.hash",
       "Source": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\BethanysPieShopHRM.shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/BethanysPieShopHRM.shared.pdb.br"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\364hiBcTXULX6Z6Yz7ozq3FTiZd29uiXeecauvEgKAA=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\gPIcc4rWmki9I_742EubP9vDzhAy4Q71SW7-YdVcUfc=.hash",
       "Source": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

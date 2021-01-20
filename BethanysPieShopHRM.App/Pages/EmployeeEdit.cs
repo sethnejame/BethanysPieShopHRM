@@ -12,23 +12,21 @@ namespace BethanysPieShopHRM.App.Pages
     {
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
-
         [Inject]
         public ICountryService CountryService { get; set; }
-
         [Inject]
         public IJobCategoryService JobCategoryService { get; set; }
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
 
         [Parameter]
         public string EmployeeId { get; set; }
 
         public Employee Employee { get; set; } = new Employee();
-
         public List<Country> Countries { get; set; } = new List<Country>();
-
         public List<JobCategory> JobCategories { get; set; } = new List<JobCategory>();
 
-        public string JobCategoryId = string.Empty;
+        protected string JobCategoryId = string.Empty;
         protected string CountryId = string.Empty;
 
         // used to store state of screen
@@ -39,11 +37,9 @@ namespace BethanysPieShopHRM.App.Pages
 
         protected async override Task OnInitializedAsync()
         {
+            Saved = false;
             Countries = (await CountryService.GetAllCountries()).ToList();
             JobCategories = (await JobCategoryService.GetAllJobCategories()).ToList();
-
-            CountryId = Employee.CountryId.ToString();
-            JobCategoryId = Employee.JobCategoryId.ToString();
 
             int.TryParse(EmployeeId, out var employeeId);
 
@@ -56,6 +52,9 @@ namespace BethanysPieShopHRM.App.Pages
             {
                 Employee = await EmployeeService.GetEmployee(int.Parse(EmployeeId));
             }
+
+            CountryId = Employee.CountryId.ToString();
+            JobCategoryId = Employee.JobCategoryId.ToString();
         }
 
         protected async Task HandleValidSubmit()
@@ -89,10 +88,25 @@ namespace BethanysPieShopHRM.App.Pages
             }
         }
 
+        protected async void DeleteEmployee()
+        {
+            await EmployeeService.DeleteEmployee(Employee.EmployeeId);
+
+            StatusClass = "alert-success";
+            Message = "Employee was successfully deleted.";
+
+            Saved = true;
+        }
+
         protected void HandleInvalidSubmit()
         {
             StatusClass = "alert-danger";
             Message = "Validation error. Please check employee data and try again";
+        }
+
+        protected void NavigateToOverview()
+        {
+            NavigationManager.NavigateTo("/employeeoverview");
         }
     }
 }

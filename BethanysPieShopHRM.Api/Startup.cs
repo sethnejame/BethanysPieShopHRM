@@ -31,7 +31,12 @@ namespace BethanysPieShopHRM.Api
 
             services.AddCors(options =>
             {
-                options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader());
+                //options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader());
+                  options.AddPolicy("Open",
+                        builder => builder.WithOrigins("https://localhost:44342")
+                            .AllowAnyHeader()
+                            .AllowAnyMethod()
+                    );
             });
 
             services.AddControllers();
