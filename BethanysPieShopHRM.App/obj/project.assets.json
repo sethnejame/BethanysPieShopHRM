@@ -445,6 +445,20 @@
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
+      "BethanysPieShopHRM.ComponentsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "3.0.0",
+          "Microsoft.AspNetCore.Components.Web": "3.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BethanysPieShopHRM.ComponentsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BethanysPieShopHRM.ComponentsLibrary.dll": {}
+        }
+      },
       "BethanysPieShopHRM.shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1670,6 +1684,11 @@
         "version.txt"
       ]
     },
+    "BethanysPieShopHRM.ComponentsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../BethanysPieShopHRM.ComponentsLibrary/BethanysPieShopHRM.ComponentsLibrary.csproj",
+      "msbuildProject": "../BethanysPieShopHRM.ComponentsLibrary/BethanysPieShopHRM.ComponentsLibrary.csproj"
+    },
     "BethanysPieShopHRM.shared/1.0.0": {
       "type": "project",
       "path": "../BethanysPieShopHRM.shared/BethanysPieShopHRM.shared.csproj",
@@ -1678,6 +1697,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
+      "BethanysPieShopHRM.ComponentsLibrary >= 1.0.0",
       "BethanysPieShopHRM.shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
@@ -1713,6 +1733,9 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
+            "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj": {
+              "projectPath": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj"
+            },
             "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.shared\\BethanysPieShopHRM.shared.csproj": {
               "projectPath": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.shared\\BethanysPieShopHRM.shared.csproj"
             }

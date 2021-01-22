@@ -75,6 +75,27 @@ using BethanysPieShopHRM.App.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
+using BethanysPieShopHRM.App.Component;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
+using BethanysPieShopHRM.ComponentsLibrary;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
+using BethanysPieShopHRM.ComponentsLibrary.Map;
+
+#line default
+#line hidden
+#nullable disable
     public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
