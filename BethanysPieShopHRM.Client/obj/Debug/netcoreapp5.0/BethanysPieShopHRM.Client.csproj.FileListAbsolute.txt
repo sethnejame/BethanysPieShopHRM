@@ -1,0 +1,16 @@
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.Client.csprojAssemblyReference.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.Client.AssemblyInfoInputs.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.Client.AssemblyInfo.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.Client.csproj.CoreCompileInputs.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.Client.MvcApplicationPartsAssemblyInfo.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.Client.RazorComponent.input.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\RazorDeclaration\App.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\RazorDeclaration\Pages\Counter.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\RazorDeclaration\Pages\Index.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\RazorDeclaration\_Imports.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Client\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.Client.RazorComponent.output.cache

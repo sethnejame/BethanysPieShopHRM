@@ -1,0 +1,7 @@
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.ComponentsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.ComponentsLibrary.AssemblyInfoInputs.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.ComponentsLibrary.AssemblyInfo.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.ComponentsLibrary.csproj.CoreCompileInputs.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.ComponentsLibrary.RazorComponent.input.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\netcoreapp5.0\RazorDeclaration\Map\Map.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.ComponentsLibrary.RazorComponent.output.cache

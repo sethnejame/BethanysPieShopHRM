@@ -1,0 +1,17 @@
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.App.csprojAssemblyReference.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.App.AssemblyInfoInputs.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.App.AssemblyInfo.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.App.csproj.CoreCompileInputs.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.App.RazorComponent.input.cache
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\App.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\Component\AddEmployeeDialog.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\Pages\EmployeeDetail.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\Pages\EmployeeEdit.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\Pages\EmployeeOverview.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\Pages\Index.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\Shared\NavMenu.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\RazorDeclaration\_Imports.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\netcoreapp5.0\BethanysPieShopHRM.App.RazorComponent.output.cache

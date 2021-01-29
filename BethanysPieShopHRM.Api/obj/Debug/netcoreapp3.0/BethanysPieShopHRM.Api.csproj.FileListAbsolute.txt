@@ -14,6 +14,7 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
@@ -40,4 +41,3 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\BethanysPieShopHRM.Api.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\BethanysPieShopHRM.Api.pdb
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\obj\Debug\netcoreapp3.0\BethanysPieShopHRM.Api.genruntimeconfig.cache
-D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.Api\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
