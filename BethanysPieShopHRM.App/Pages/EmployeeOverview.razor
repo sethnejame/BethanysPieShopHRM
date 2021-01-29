@@ -23,7 +23,8 @@ else
             {
                 <tr>
                     <td>
-                        <img src=@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg") class="rounded-circle" />
+                        @*<img src=@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg") class="rounded-circle" />*@
+                        <img src="@employee.ImageName" width="75" />
                     </td>
                     <td>@employee.EmployeeId</td>
                     <td>@employee.FirstName</td>

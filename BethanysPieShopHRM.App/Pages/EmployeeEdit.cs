@@ -5,6 +5,8 @@ using BethanysPieShopHRM.Shared;
 using System.Collections.Generic;
 using BethanysPieShopHRM.App.Services;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Forms;
+using System.IO;
 
 namespace BethanysPieShopHRM.App.Pages
 {
@@ -34,6 +36,12 @@ namespace BethanysPieShopHRM.App.Pages
         protected string StatusClass = string.Empty;
         protected bool Saved;
 
+        private ElementReference LastNameInput;
+
+        protected async override Task OnAfterRenderAsync(bool firstRender)
+        {
+            await LastNameInput.FocusAsync();
+        }
 
         protected async override Task OnInitializedAsync()
         {
@@ -57,6 +65,15 @@ namespace BethanysPieShopHRM.App.Pages
             JobCategoryId = Employee.JobCategoryId.ToString();
         }
 
+        private IReadOnlyList<IBrowserFile> selectedFiles;
+
+        protected void OnInputFileChange(InputFileChangeEventArgs e)
+        {
+            selectedFiles = e.GetMultipleFiles();
+            Message = $"{selectedFiles.Count} file(s) selected";
+            StateHasChanged();
+        }
+
         protected async Task HandleValidSubmit()
         {
             Saved = false;
@@ -65,6 +82,18 @@ namespace BethanysPieShopHRM.App.Pages
 
             if (Employee.EmployeeId == 0)
             {
+                if (selectedFiles != null)
+                {
+                    var file = selectedFiles[0];
+                    Stream stream = file.OpenReadStream();
+                    MemoryStream ms = new MemoryStream();
+                    await stream.CopyToAsync(ms);
+                    stream.Close();
+
+                    Employee.ImageName = file.Name;
+                    Employee.ImageContent = ms.ToArray();
+                }
+
                 var addedEmployee = await EmployeeService.AddEmployee(Employee);
                 if (addedEmployee != null)
                 {
@@ -108,5 +137,6 @@ namespace BethanysPieShopHRM.App.Pages
         {
             NavigationManager.NavigateTo("/employeeoverview");
         }
+
     }
 }

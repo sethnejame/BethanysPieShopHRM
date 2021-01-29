@@ -1,10 +1,11 @@
-using BethanysPieShopHRM.Api.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using BethanysPieShopHRM.Api.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 namespace BethanysPieShopHRM.Api
 {
@@ -28,6 +29,7 @@ namespace BethanysPieShopHRM.Api
             services.AddScoped<ICountryRepository, CountryRepository>();
             services.AddScoped<IJobCategoryRepository, JobCategoryRepository>();
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddCors(options =>
             {
@@ -50,6 +52,8 @@ namespace BethanysPieShopHRM.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseStaticFiles();
 
             app.UseHttpsRedirection();
 
