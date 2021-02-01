@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using BethanysPieShopHRM.Shared;
 
@@ -7,6 +8,7 @@ namespace BethanysPieShopHRM.Api.Models
     public class EmployeeRepository : IEmployeeRepository
     {
         private readonly AppDbContext _appDbContext;
+        private Random random = new Random();
 
         public EmployeeRepository(AppDbContext appDbContext)
         {
@@ -21,6 +23,38 @@ namespace BethanysPieShopHRM.Api.Models
         public Employee GetEmployeeById(int employeeId)
         {
             return _appDbContext.Employees.FirstOrDefault(c => c.EmployeeId == employeeId);
+        }
+
+        public IEnumerable<Employee> GetLongEmployeeList()
+        {
+            var Employees = new List<Employee>();
+            for (int i = 0; i < 1000; i++)
+            {
+                var employee = new Employee()
+                {
+                    EmployeeId = i,
+                    FirstName = RandomString(10),
+                    LastName = RandomString(18)
+                };
+                Employees.Add(employee);
+            }
+            return Employees;
+        }
+
+        public IEnumerable<Employee> GetTakeLongEmployeeList(int startIndex, int count)
+        {
+            var Employees = new List<Employee>();
+            for (int i = 0; i < count; i++)
+            {
+                var employee = new Employee()
+                {
+                    EmployeeId = i,
+                    FirstName = RandomString(10),
+                    LastName = RandomString(18)
+                };
+                Employees.Add(employee);
+            }
+            return Employees;
         }
 
         public Employee AddEmployee(Employee employee)
@@ -68,6 +102,13 @@ namespace BethanysPieShopHRM.Api.Models
 
             _appDbContext.Employees.Remove(foundEmployee);
             _appDbContext.SaveChanges();
+        }
+
+        private string RandomString(int length)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            return new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
         }
     }
 }

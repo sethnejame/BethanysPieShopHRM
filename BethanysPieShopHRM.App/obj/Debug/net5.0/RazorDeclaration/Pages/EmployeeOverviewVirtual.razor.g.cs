@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace BethanysPieShopHRM.App.Shared
+namespace BethanysPieShopHRM.App.Pages
 {
     #line hidden
     using System;
@@ -103,7 +103,8 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
 #line default
 #line hidden
 #nullable disable
-    public partial class MainLayout : LayoutComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/employeeoverviewvirtual")]
+    public partial class EmployeeOverviewVirtual : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)

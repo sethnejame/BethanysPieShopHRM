@@ -93,6 +93,13 @@ using BethanysPieShopHRM.ComponentsLibrary.Map;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 13 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
+using Microsoft.AspNetCore.Components.Web.Virtualization;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/employeedetail/{EmployeeId}")]
     public partial class EmployeeDetail : Microsoft.AspNetCore.Components.ComponentBase
     {

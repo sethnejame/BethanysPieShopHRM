@@ -1108,10 +1108,10 @@
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "runtime": {
-          "BethanysPieShopHRM.Shared.dll": {}
+          "BethanysPieShopHRM.shared.dll": {}
         },
         "compile": {
-          "BethanysPieShopHRM.Shared.dll": {}
+          "BethanysPieShopHRM.shared.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
