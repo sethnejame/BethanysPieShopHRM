@@ -1,0 +1,77 @@
+/* /Pages/index.razor.rz.scp.css */
+
+h3[b-4lzu1w7f01] {
+    color: mediumpurple;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+nav[b-5mb71cu944] {
+    background-color: #a593c2;
+    border-color: #a593c2;
+}
+
+#navbarSupportedContent[b-5mb71cu944] {
+    height: 80px;
+}
+
+.navbar[b-5mb71cu944] {
+    padding: 0;
+}
+
+.container-fluid[b-5mb71cu944] {
+    padding: 25px;
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+#logo[b-thcm2l9sr1] {
+    width: 80%;
+}
+
+
+.sidebar-logo[b-thcm2l9sr1] {
+    height: 80px;
+    background-color: #a593c2;
+    border-color: #a593c2;
+    width: 240px;
+}
+
+/*profile picture*/
+.profile[b-thcm2l9sr1] {
+    width: 240px;
+    overflow-y: visible;
+    position: absolute;
+}
+
+.profile-bg[b-thcm2l9sr1], .profile-picture[b-thcm2l9sr1] {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+}
+
+.profile-bg[b-thcm2l9sr1] {
+    overflow: hidden;
+}
+
+    .profile-bg img[b-thcm2l9sr1] {
+        width: 250px;
+        height: 250px;
+        filter: blur(16px);
+        -webkit-filter: blur(16px);
+        margin: -5px;
+        border: 0;
+    }
+
+.profile-picture img.account-photo[b-thcm2l9sr1] {
+    width: 160px;
+    height: 160px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.circle[b-thcm2l9sr1] {
+    border-radius: 50%;
+}
+
+.menu[b-thcm2l9sr1] {
+    position: absolute;
+    margin-top: 240px;
+}

@@ -106,8 +106,8 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
         {
-            __builder.AddMarkupContent(0, "<h1 class=\"page-title\">Welcome to Bethany\'s Pie Shop HRM!</h1>\r\n<br>\r\n");
-            __builder.AddMarkupContent(1, "<h3>Using this application, you can manage our wonderful staff working for us all over the world, bringing people the best pies ever!</h3>");
+            __builder.AddMarkupContent(0, "<h1 class=\"page-title\" b-4lzu1w7f01>Welcome to Bethany\'s Pie Shop HRM!</h1>\r\n<br b-4lzu1w7f01>\r\n");
+            __builder.AddMarkupContent(1, "<h3 b-4lzu1w7f01>Using this application, you can manage our wonderful staff working for us all over the world, bringing people the best pies ever!</h3>");
         }
         #pragma warning restore 1998
     }
