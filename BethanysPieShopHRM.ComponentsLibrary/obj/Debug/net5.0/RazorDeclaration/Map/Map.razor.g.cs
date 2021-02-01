@@ -17,34 +17,41 @@ using System;
 #nullable disable
 #nullable restore
 #line 2 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
-using System.Collections.Generic;
+using BethanysPieShopHRM.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
-using System.Threading.Tasks;
+using System.Collections.Generic;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
-using Microsoft.AspNetCore.Components;
+using System.Threading.Tasks;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
-using Microsoft.JSInterop;
+using Microsoft.AspNetCore.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 6 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
+using Microsoft.JSInterop;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 7 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
 using BethanysPieShopHRM.ComponentsLibrary.Map;
 
 #line default
@@ -58,15 +65,15 @@ using BethanysPieShopHRM.ComponentsLibrary.Map;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
+#line 12 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
        
 
     string elementId = $"map-{Guid.NewGuid().ToString("D")}";
-    
-    [Parameter] 
+
+    [Parameter]
     public double Zoom { get; set; }
 
-    [Parameter] 
+    [Parameter]
     public List<Marker> Markers { get; set; }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)

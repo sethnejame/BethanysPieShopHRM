@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gCtVXDbibYc1ksYvanQB39aqc3yPsvFJXnI9nBLOKW58PC8YFZZpwsj1+o55emlwNJJrJtw9UFINSbpJMnh4XA==",
+  "dgSpecHash": "nzzd6MPiGSR2qQ9H2bW3BsstMDnkmRWe2C2q/sVA0CnhHXhFOh0B2D+WdL3inqMQv2lgXkqk8p23L4/KplML3A==",
   "success": true,
   "projectFilePath": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.ComponentsLibrary\\BethanysPieShopHRM.ComponentsLibrary.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\sethn\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\sethn\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\sethn\\.nuget\\packages\\microsoft.jsinterop\\5.0.2\\microsoft.jsinterop.5.0.2.nupkg.sha512",
+    "C:\\Users\\sethn\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\sethn\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
   ],
   "logs": []

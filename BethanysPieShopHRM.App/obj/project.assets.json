@@ -334,6 +334,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "BethanysPieShopHRM.shared": "1.0.0",
           "Microsoft.AspNetCore.Components": "5.0.2",
           "Microsoft.AspNetCore.Components.Web": "5.0.2"
         },
@@ -691,6 +692,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "BethanysPieShopHRM.shared": "1.0.0",
           "Microsoft.AspNetCore.Components": "5.0.2",
           "Microsoft.AspNetCore.Components.Web": "5.0.2"
         },
