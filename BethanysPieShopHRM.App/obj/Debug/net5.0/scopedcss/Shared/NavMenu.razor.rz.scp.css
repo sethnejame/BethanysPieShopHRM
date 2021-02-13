@@ -10,39 +10,6 @@
     width: 240px;
 }
 
-/*profile picture*/
-.profile[b-thcm2l9sr1] {
-    width: 240px;
-    overflow-y: visible;
-    position: absolute;
-}
-
-.profile-bg[b-thcm2l9sr1], .profile-picture[b-thcm2l9sr1] {
-    width: 240px;
-    height: 240px;
-    position: absolute;
-}
-
-.profile-bg[b-thcm2l9sr1] {
-    overflow: hidden;
-}
-
-    .profile-bg img[b-thcm2l9sr1] {
-        width: 250px;
-        height: 250px;
-        filter: blur(16px);
-        -webkit-filter: blur(16px);
-        margin: -5px;
-        border: 0;
-    }
-
-.profile-picture img.account-photo[b-thcm2l9sr1] {
-    width: 160px;
-    height: 160px;
-    margin-left: 40px;
-    margin-top: 40px;
-}
-
 
 .circle[b-thcm2l9sr1] {
     border-radius: 50%;

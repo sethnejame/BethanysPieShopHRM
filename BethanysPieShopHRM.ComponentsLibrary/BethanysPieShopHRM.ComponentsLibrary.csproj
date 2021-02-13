@@ -20,4 +20,14 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="5.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BethanysPieShopHRM.shared\BethanysPieShopHRM.shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="ProfilePicture.razor">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

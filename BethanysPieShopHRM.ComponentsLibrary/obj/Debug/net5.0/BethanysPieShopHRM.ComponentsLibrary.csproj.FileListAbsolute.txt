@@ -22,3 +22,11 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\BethanysPieShopHRM.ComponentsLibrary.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\ref\BethanysPieShopHRM.ComponentsLibrary.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\BethanysPieShopHRM.ComponentsLibrary.pdb
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\bin\Debug\net5.0\BethanysPieShopHRM.shared.dll
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\bin\Debug\net5.0\BethanysPieShopHRM.shared.pdb
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\BethanysPieShopHRM.ComponentsLibrary.csproj.CopyComplete
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\bin\Debug\net5.0\BethanysPieShopHRM.ComponentsLibrary.StaticWebAssets.xml
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\RazorDeclaration\ProfilePicture.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\Razor\ProfilePicture.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\scopedcss\ProfilePicture.razor.rz.scp.css
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\scopedcss\projectbundle\BethanysPieShopHRM.ComponentsLibrary.bundle.scp.css

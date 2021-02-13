@@ -72,6 +72,7 @@ namespace BethanysPieShopHRM.Api.Models
             {
                 foundEmployee.CountryId = employee.CountryId;
                 foundEmployee.MaritalStatus = employee.MaritalStatus;
+                foundEmployee.ImageName = employee.ImageName;
                 foundEmployee.BirthDate = employee.BirthDate;
                 foundEmployee.City = employee.City;
                 foundEmployee.Email = employee.Email;

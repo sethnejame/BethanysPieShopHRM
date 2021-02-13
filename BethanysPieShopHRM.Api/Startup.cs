@@ -33,16 +33,19 @@ namespace BethanysPieShopHRM.Api
 
             services.AddCors(options =>
             {
-                //options.AddPolicy("Open", builder => builder.AllowAnyOrigin().AllowAnyHeader());
-                  options.AddPolicy("Open",
-                        builder => builder.WithOrigins("https://localhost:44342")
-                            .AllowAnyHeader()
-                            .AllowAnyMethod()
-                    );
+                options.AddPolicy("Open", builder => builder
+                .AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod());
+                //options.AddPolicy("Open",
+                //      builder => builder.WithOrigins("https://localhost:44342")
+                //          .AllowAnyHeader()
+                //          .AllowAnyMethod()
+                //);
             });
 
             services.AddControllers();
-                //.AddJsonOptions(options => options.JsonSerializerOptions.ca);
+            //.AddJsonOptions(options => options.JsonSerializerOptions.ca);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

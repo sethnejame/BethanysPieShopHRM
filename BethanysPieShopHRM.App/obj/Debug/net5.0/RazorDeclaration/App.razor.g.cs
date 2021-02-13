@@ -34,13 +34,6 @@ using Microsoft.AspNetCore.Components.Forms;
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
-using Microsoft.AspNetCore.Components.Routing;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 5 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
@@ -103,6 +96,27 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 1 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\App.razor"
+using System.Reflection;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 2 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\App.razor"
+using Microsoft.AspNetCore.Components.Routing;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\App.razor"
+using Microsoft.AspNetCore.Components.WebAssembly.Services;
+
+#line default
+#line hidden
+#nullable disable
     public partial class App : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -110,6 +124,7 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
         {
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private LazyAssemblyLoader LazyAssemblyLoader { get; set; }
     }
 }
 #pragma warning restore 1591

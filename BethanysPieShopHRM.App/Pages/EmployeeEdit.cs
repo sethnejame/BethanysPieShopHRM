@@ -80,20 +80,20 @@ namespace BethanysPieShopHRM.App.Pages
             Employee.CountryId = int.Parse(CountryId);
             Employee.JobCategoryId = int.Parse(JobCategoryId);
 
+            if (selectedFiles != null)
+            {
+                var file = selectedFiles[0];
+                Stream stream = file.OpenReadStream();
+                MemoryStream ms = new MemoryStream();
+                await stream.CopyToAsync(ms);
+                stream.Close();
+
+                Employee.ImageName = file.Name;
+                Employee.ImageContent = ms.ToArray();
+            }
+
             if (Employee.EmployeeId == 0)
             {
-                if (selectedFiles != null)
-                {
-                    var file = selectedFiles[0];
-                    Stream stream = file.OpenReadStream();
-                    MemoryStream ms = new MemoryStream();
-                    await stream.CopyToAsync(ms);
-                    stream.Close();
-
-                    Employee.ImageName = file.Name;
-                    Employee.ImageContent = ms.ToArray();
-                }
-
                 var addedEmployee = await EmployeeService.AddEmployee(Employee);
                 if (addedEmployee != null)
                 {

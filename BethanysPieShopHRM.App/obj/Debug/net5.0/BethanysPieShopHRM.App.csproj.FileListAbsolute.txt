@@ -648,3 +648,4 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\ref\Bet
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\BethanysPieShopHRM.App.pdb
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\bin\Debug\net5.0\BethanysPieShopHRM.ComponentsLibrary.StaticWebAssets.xml

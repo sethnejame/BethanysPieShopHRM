@@ -467,7 +467,7 @@ using Microsoft.AspNetCore.Components.Web.Virtualization;
 #line hidden
 #nullable disable
             ));
-            __builder.AddAttribute(166, "Markers", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Collections.Generic.List<BethanysPieShopHRM.ComponentsLibrary.Map.Marker>>(
+            __builder.AddAttribute(166, "Markers", Microsoft.AspNetCore.Components.CompilerServices.RuntimeHelpers.TypeCheck<System.Collections.Generic.List<BethanysPieShopHRM.Shared.Marker>>(
 #nullable restore
 #line 113 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\Pages\EmployeeDetail.razor"
                                                 MapMarkers
