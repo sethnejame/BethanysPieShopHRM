@@ -11,6 +11,10 @@
     position: absolute;
 }
 
+.circle {
+    border-radius: 50%;
+}
+
 .profile-bg {
     overflow: hidden;
 }

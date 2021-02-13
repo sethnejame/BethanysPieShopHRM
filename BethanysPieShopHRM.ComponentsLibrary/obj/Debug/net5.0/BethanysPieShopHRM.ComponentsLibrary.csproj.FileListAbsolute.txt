@@ -30,3 +30,5 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\Razor\ProfilePicture.razor.g.cs
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\scopedcss\ProfilePicture.razor.rz.scp.css
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\scopedcss\projectbundle\BethanysPieShopHRM.ComponentsLibrary.bundle.scp.css
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\obj\Debug\net5.0\Razor\_Imports.razor.g.cs

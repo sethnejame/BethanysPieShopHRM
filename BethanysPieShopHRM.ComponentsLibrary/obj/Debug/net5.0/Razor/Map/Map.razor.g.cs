@@ -6,6 +6,13 @@ namespace BethanysPieShopHRM.ComponentsLibrary.Map
     #line hidden
     using System.Linq;
 #nullable restore
+#line 1 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\_Imports.razor"
+using Microsoft.AspNetCore.Components.Web;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.ComponentsLibrary\Map\Map.razor"
 using System;
 
