@@ -24,7 +24,7 @@ namespace BethanysPieShopHRM.App.Pages
         [Parameter]
         public string EmployeeId { get; set; }
 
-        public Employee Employee { get; set; } = new Employee();
+        public EmployeeModel Employee { get; set; } = new EmployeeModel();
         public List<Country> Countries { get; set; } = new List<Country>();
         public List<JobCategory> JobCategories { get; set; } = new List<JobCategory>();
 
@@ -54,7 +54,7 @@ namespace BethanysPieShopHRM.App.Pages
             if (employeeId == 0) // if no employeeId has been passed via query params
             {
                 // init new employee with some defaults
-                Employee = new Employee { CountryId = 1, JobCategoryId = 1, BirthDate = DateTime.UtcNow, JoinedDate = DateTime.UtcNow };
+                Employee = new EmployeeModel { CountryId = 1, JobCategoryId = 1, BirthDate = DateTime.UtcNow, JoinedDate = DateTime.UtcNow };
             }
             else
             {

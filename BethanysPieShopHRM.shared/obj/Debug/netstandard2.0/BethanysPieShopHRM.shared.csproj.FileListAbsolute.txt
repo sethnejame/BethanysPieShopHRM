@@ -6,3 +6,4 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.csproj.CoreCompileInputs.cache
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.pdb
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.csprojAssemblyReference.cache

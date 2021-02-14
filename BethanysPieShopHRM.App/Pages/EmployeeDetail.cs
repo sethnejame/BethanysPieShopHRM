@@ -3,16 +3,15 @@ using BethanysPieShopHRM.Shared;
 using System.Collections.Generic;
 using BethanysPieShopHRM.App.Services;
 using Microsoft.AspNetCore.Components;
-using BethanysPieShopHRM.ComponentsLibrary.Map;
 
 namespace BethanysPieShopHRM.App.Pages
 {
     public partial class EmployeeDetail
     {
-		[Parameter]
+		[Parameter] // This is how we pass props from the parent component (the corresponding razor file)...in this case, the parent component's URL query params get passed down this way
         public string EmployeeId { get; set; }
 
-		public Employee Employee { get; set; } = new Employee();
+		public EmployeeModel Employee { get; set; } = new EmployeeModel();
 
         public List<Marker> MapMarkers { get; set; } = new List<Marker>();
 

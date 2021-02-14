@@ -8,17 +8,17 @@ namespace BethanysPieShopHRM.App.Services
 {
     public  interface IEmployeeService
     {
-        Task<IEnumerable<Employee>> GetLongEmployeeList();
+        Task<IEnumerable<EmployeeModel>> GetLongEmployeeList();
 
-        Task<IEnumerable<Employee>> GetTakeLongEmployeeList(int startIndex, int count);
+        Task<IEnumerable<EmployeeModel>> GetTakeLongEmployeeList(int startIndex, int count);
 
-        Task<IEnumerable<Employee>> GetAllEmployees();
+        Task<IEnumerable<EmployeeModel>> GetAllEmployees();
 
-        Task<Employee> GetEmployee(int employeeId);
+        Task<EmployeeModel> GetEmployee(int employeeId);
 
-        Task<Employee> AddEmployee(Employee employee);
+        Task<EmployeeModel> AddEmployee(EmployeeModel employee);
 
-        Task UpdateEmployee(Employee employee);
+        Task UpdateEmployee(EmployeeModel employee);
 
         Task DeleteEmployee(int employeeId);
     }

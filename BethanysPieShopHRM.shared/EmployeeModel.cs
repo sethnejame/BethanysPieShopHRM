@@ -52,6 +52,8 @@ namespace BethanysPieShopHRM.Shared
             entity.FirstName = FirstName;
             entity.LastName = LastName;
             entity.Gender = Gender;
+            entity.ImageContent = ImageContent;
+            entity.ImageName = ImageName;
             entity.PhoneNumber = PhoneNumber;
             entity.Smoker = Smoker;
             entity.Street = Street;
@@ -61,5 +63,9 @@ namespace BethanysPieShopHRM.Shared
             entity.ExitDate = ExitDate;
             entity.JoinedDate = JoinedDate;
         }
+
+        public string ImageName { get; set; }
+
+        public byte[] ImageContent { get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace BethanysPieShopHRM.App.Pages
 {
     public partial class EmployeeOverview
     {
-        public IEnumerable<Employee> Employees { get; set; }
+        public List<EmployeeModel> Employees { get; set; }
 
         [Inject]
         public IEmployeeService EmployeeService { get; set; }

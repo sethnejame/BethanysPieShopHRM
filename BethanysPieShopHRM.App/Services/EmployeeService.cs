@@ -18,7 +18,7 @@ namespace BethanysPieShopHRM.App.Services
             _httpClient = httpClient;
         }
 
-        public async Task<Employee> AddEmployee(Employee employee)
+        public async Task<EmployeeModel> AddEmployee(EmployeeModel employee)
         {
             var employeeJson =
                 new StringContent(JsonSerializer.Serialize(employee), Encoding.UTF8, "application/json");
@@ -27,7 +27,7 @@ namespace BethanysPieShopHRM.App.Services
 
             if (response.IsSuccessStatusCode) 
             {
-                return await JsonSerializer.DeserializeAsync<Employee>(await response.Content.ReadAsStreamAsync());
+                return await JsonSerializer.DeserializeAsync<EmployeeModel>(await response.Content.ReadAsStreamAsync());
             }
 
             return null;
@@ -38,29 +38,29 @@ namespace BethanysPieShopHRM.App.Services
             await _httpClient.DeleteAsync($"api/employee/{employeeId}");
         }
 
-        public async Task<IEnumerable<Employee>> GetAllEmployees()
+        public async Task<IEnumerable<EmployeeModel>> GetAllEmployees()
         {
-            return await JsonSerializer.DeserializeAsync<IEnumerable<Employee>>
+            return await JsonSerializer.DeserializeAsync<IEnumerable<EmployeeModel>>
                 (await _httpClient.GetStreamAsync($"api/employee"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
-        public async Task<IEnumerable<Employee>> GetLongEmployeeList()
+        public async Task<IEnumerable<EmployeeModel>> GetLongEmployeeList()
         {
-            return await _httpClient.GetFromJsonAsync<IEnumerable<Employee>>($"api/employee/long");
+            return await _httpClient.GetFromJsonAsync<IEnumerable<EmployeeModel>>($"api/employee/long");
         }
 
-        public async Task<IEnumerable<Employee>> GetTakeLongEmployeeList(int startIndex, int count)
+        public async Task<IEnumerable<EmployeeModel>> GetTakeLongEmployeeList(int startIndex, int count)
         {
-            return await _httpClient.GetFromJsonAsync<List<Employee>>($"api/employee/long/{startIndex}/{count}");
+            return await _httpClient.GetFromJsonAsync<List<EmployeeModel>>($"api/employee/long/{startIndex}/{count}");
         }
 
-        public async Task<Employee> GetEmployee(int employeeId)
+        public async Task<EmployeeModel> GetEmployee(int employeeId)
         {
-            return await JsonSerializer.DeserializeAsync<Employee>
+            return await JsonSerializer.DeserializeAsync<EmployeeModel>
                 (await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
-        public async Task UpdateEmployee(Employee employee)
+        public async Task UpdateEmployee(EmployeeModel employee)
         {
             var employeeJson =
                 new StringContent(JsonSerializer.Serialize(employee), Encoding.UTF8, "application/json");

@@ -11,7 +11,7 @@ namespace BethanysPieShopHRM.App.Pages
 {
     public partial class EmployeeOverviewVirtual
     {
-        public List<Employee> Employees { get; set; } = new List<Employee>();
+        public List<EmployeeModel> Employees { get; set; } = new List<EmployeeModel>();
 
         [Inject]
         public IEmployeeService EmployeeService { get; set; }
@@ -25,14 +25,14 @@ namespace BethanysPieShopHRM.App.Pages
 
         private int totalNumberOfEmployees = 1000;
 
-        public async ValueTask<ItemsProviderResult<Employee>> LoadEmployees(ItemsProviderRequest request)
+        public async ValueTask<ItemsProviderResult<EmployeeModel>> LoadEmployees(ItemsProviderRequest request)
         {
             //assume that we have asked the API the total number in a separate call
 
             var numberOfEmployees = Math.Min(request.Count, totalNumberOfEmployees - request.StartIndex);
             var EmployeeListItems = await EmployeeService.GetTakeLongEmployeeList(request.StartIndex, numberOfEmployees);
 
-            return new ItemsProviderResult<Employee>(EmployeeListItems, totalNumberOfEmployees);
+            return new ItemsProviderResult<EmployeeModel>(EmployeeListItems, totalNumberOfEmployees);
         }
 
     }

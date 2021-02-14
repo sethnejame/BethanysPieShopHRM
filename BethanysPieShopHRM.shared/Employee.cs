@@ -65,7 +65,9 @@ namespace BethanysPieShopHRM.Shared
                 ExitDate = ExitDate,
                 JoinedDate = JoinedDate,
                 HasPremiumBenefits = EmployeeBenefits != null
-                    && EmployeeBenefits.Any(b => b.Benefit.Premium)
+                    && EmployeeBenefits.Any(b => b.Benefit.Premium),
+                ImageName = ImageName,
+                ImageContent = ImageContent
             };
         }
 

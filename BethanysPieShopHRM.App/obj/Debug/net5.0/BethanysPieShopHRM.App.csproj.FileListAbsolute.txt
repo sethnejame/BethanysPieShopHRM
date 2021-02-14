@@ -649,3 +649,5 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\Bethany
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\BethanysPieShopHRM.App.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\ref\BethanysPieShopHRM.App.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\BethanysPieShopHRM.App.pdb
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\RazorDeclaration\Component\EmployeeRow.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\Razor\Component\EmployeeRow.razor.g.cs
