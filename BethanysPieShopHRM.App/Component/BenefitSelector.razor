@@ -14,7 +14,7 @@ else
                 </tr>
                 @foreach (var benefit in Benefits)
                 {
-                    <tr>
+                    <tr @key="benefit"> @*Assigning @key here allows the diff mechanism to register changes to iterated elements*@   
                         <td>
                             @benefit.Description
                         </td>
