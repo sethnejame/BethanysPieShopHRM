@@ -10,17 +10,41 @@ else
         <div class="col-md-8">
             <table class="table table-sm">
                 <tr>
+                    <th></th>
                     <th class="w-auto">Benefit</th>
+                    <th class="w-25">Start Date</th>
+                    <th class="w-25">End Date</th>
+
                 </tr>
                 @foreach (var benefit in Benefits)
                 {
-                    <tr @key="benefit"> @*Assigning @key here allows the diff mechanism to register changes to iterated elements*@   
-                        <td>
-                            @benefit.Description
-                        </td>
-                    </tr>
+            <tr @key="benefit">
+                @*Assigning @key here allows the diff mechanism to register changes to iterated elements*@
+                <td>
+                    @benefit.Description
+                </td>
+                <td>
+                    <input type="checkbox" checked="@benefit.Selected" @onchange="e => CheckBoxChanged(e, benefit)"/> 
+                    </td>
+                    @if (benefit.Selected)
+                    {
+                        <td>@benefit.StartDate</td>
+                        <td><input type="date" @bind="benefit.EndDate" /></td>
+                    }
+                    else
+                    {
+                        <td></td>
+                        <td></td>
+                    }
+                </tr>
                 }
             </table>
+        </div>
+        <div class="col-md-4 mt-1">
+            <button class="btn btn-primary" disabled="@SaveButtonDisabled"
+                    @onclick="SaveClick">
+                Save
+            </button>
         </div>
     </div>
 }

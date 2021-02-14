@@ -1,9 +1,9 @@
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\bin\Debug\netstandard2.0\BethanysPieShopHRM.shared.deps.json
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\bin\Debug\netstandard2.0\BethanysPieShopHRM.shared.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\bin\Debug\netstandard2.0\BethanysPieShopHRM.shared.pdb
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.csprojAssemblyReference.cache
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.AssemblyInfoInputs.cache
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.AssemblyInfo.cs
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.csproj.CoreCompileInputs.cache
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.dll
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.pdb
-D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.shared\obj\Debug\netstandard2.0\BethanysPieShopHRM.shared.csprojAssemblyReference.cache
