@@ -636,7 +636,6 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\build-g
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\build-gz\tz3I2ohw.gz
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\build-gz\kUtGmH83.gz
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\build-gz\YPPQ+Dw+.gz
-D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\build-gz\w9bgrBei.gz
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\staticwebassets\BethanysPieShopHRM.App.StaticWebAssets.Manifest.cache
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\staticwebassets\BethanysPieShopHRM.App.StaticWebAssets.xml
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\scopedcss\Pages\index.razor.rz.scp.css
@@ -651,3 +650,6 @@ D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\ref\Bet
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\BethanysPieShopHRM.App.pdb
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\RazorDeclaration\Component\EmployeeRow.razor.g.cs
 D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\Razor\Component\EmployeeRow.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\RazorDeclaration\Component\BenefitSelector.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\Razor\Component\BenefitSelector.razor.g.cs
+D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\obj\Debug\net5.0\build-gz\w9bgrBei.gz

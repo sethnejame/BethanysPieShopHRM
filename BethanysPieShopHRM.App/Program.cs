@@ -1,11 +1,7 @@
 using System;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using BethanysPieShopHRM.App.Services;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Configuration;
+using BethanysPieShopHRM.Server.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -19,6 +15,7 @@ namespace BethanysPieShopHRM.App
             builder.RootComponents.Add<App>("app");
 
             //builder.Services.AddTransient(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            builder.Services.AddHttpClient<IBenefitDataService, BenefitDataService>(client => client.BaseAddress = new Uri("https://localhost:44340"));
             builder.Services.AddHttpClient<IEmployeeService, EmployeeService>(client => client.BaseAddress = new Uri("https://localhost:44340"));
             builder.Services.AddHttpClient<ICountryService, CountryService>(client => client.BaseAddress = new Uri("https://localhost:44340"));
             builder.Services.AddHttpClient<IJobCategoryService, JobCategoryService>(client => client.BaseAddress = new Uri("https://localhost:44340"));

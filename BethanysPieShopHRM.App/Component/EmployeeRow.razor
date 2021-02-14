@@ -3,7 +3,7 @@
 <tr>
     <td>
         @*<img src=@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg") class="rounded-circle" />*@
-        <img src="@Employee.ImageName" width="75" />
+        <img src="@Employee.ImageName" width="50" class="rounded-circle" />
     </td>
     <td>@Employee.EmployeeId</td>
     <td>@Employee.FirstName</td>
@@ -27,7 +27,7 @@
 {
     <tr>
         <td colspan="5">
-            Benefits selector
+            <BenefitSelector Employee="Employee" />
         </td>
     </tr>
 }
