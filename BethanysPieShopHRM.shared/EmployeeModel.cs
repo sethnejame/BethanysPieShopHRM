@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Linq;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BethanysPieShopHRM.Shared
 {
-    public class Employee
+    public class EmployeeModel
     {
         public int EmployeeId { get; set; }
         [Required]
         [StringLength(50, ErrorMessage = "First name is too long.")]
         public string FirstName { get; set; }
+
         [Required]
         [StringLength(50, ErrorMessage = "Last name is too long.")]
         public string LastName { get; set; }
@@ -34,44 +32,34 @@ namespace BethanysPieShopHRM.Shared
         public string Comment { get; set; }
         public DateTime? JoinedDate { get; set; }
         public DateTime? ExitDate { get; set; }
-        
+
         public int JobCategoryId { get; set; }
         public JobCategory JobCategory { get; set; }
 
         public double Latitude { get; set; }
         public double Longitude { get; set; }
 
-        public IEnumerable<EmployeeBenefit> EmployeeBenefits { get; set; }
+        public bool ShowBenefits { get; set; }
+        public bool HasPremiumBenefits { get; set; }
 
-        public EmployeeModel ToModel()
+        public void UpdateEntity(Employee entity)
         {
-            return new EmployeeModel
-            {
-                EmployeeId = EmployeeId,
-                CountryId = CountryId,
-                MaritalStatus = MaritalStatus,
-                BirthDate = BirthDate,
-                City = City,
-                Email = Email,
-                FirstName = FirstName,
-                LastName = LastName,
-                Gender = Gender,
-                PhoneNumber = PhoneNumber,
-                Smoker = Smoker,
-                Street = Street,
-                Zip = Zip,
-                JobCategoryId = JobCategoryId,
-                Comment = Comment,
-                ExitDate = ExitDate,
-                JoinedDate = JoinedDate,
-                HasPremiumBenefits = EmployeeBenefits != null
-                    && EmployeeBenefits.Any(b => b.Benefit.Premium)
-            };
+            entity.CountryId = CountryId;
+            entity.MaritalStatus = MaritalStatus;
+            entity.BirthDate = BirthDate;
+            entity.City = City;
+            entity.Email = Email;
+            entity.FirstName = FirstName;
+            entity.LastName = LastName;
+            entity.Gender = Gender;
+            entity.PhoneNumber = PhoneNumber;
+            entity.Smoker = Smoker;
+            entity.Street = Street;
+            entity.Zip = Zip;
+            entity.JobCategoryId = JobCategoryId;
+            entity.Comment = Comment;
+            entity.ExitDate = ExitDate;
+            entity.JoinedDate = JoinedDate;
         }
-
-        [NotMapped]
-        public byte[] ImageContent { get; set; }
-
-        public string ImageName { get; set; }
     }
 }

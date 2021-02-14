@@ -14,6 +14,8 @@ namespace BethanysPieShopHRM.Api.Models
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<JobCategory> JobCategories { get; set; }
+        public DbSet<Benefit> Benefits { get; set; }
+        public DbSet<EmployeeBenefit> EmployeeBenefits { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -40,6 +42,12 @@ namespace BethanysPieShopHRM.Api.Models
             modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 8, JobCategoryName = "Cleaning" });
             modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 9, JobCategoryName = "Bakery" });
 
+            modelBuilder.Entity<Benefit>().HasData(new Benefit() { BenefitId = 1, Description = "Health Insurance" });
+            modelBuilder.Entity<Benefit>().HasData(new Benefit() { BenefitId = 2, Description = "Paid Time Off" });
+            modelBuilder.Entity<Benefit>().HasData(new Benefit() { BenefitId = 3, Description = "Wellness", Premium = true });
+            modelBuilder.Entity<Benefit>().HasData(new Benefit() { BenefitId = 4, Description = "Education", Premium = true });
+            modelBuilder.Entity<Benefit>().HasData(new Benefit() { BenefitId = 5, Description = "Store Discount" });
+
             modelBuilder.Entity<Employee>().HasData(new Employee
             {
                 EmployeeId = 1,
@@ -59,29 +67,6 @@ namespace BethanysPieShopHRM.Api.Models
                 Comment = "Lorem Ipsum",
                 ExitDate = null,
                 JoinedDate = new DateTime(2015, 3, 1),
-                Latitude = 50.8503,
-                Longitude = 4.3517
-            });
-
-            modelBuilder.Entity<Employee>().HasData(new Employee
-            {
-                CountryId = 2,
-                MaritalStatus = MaritalStatus.Married,
-                BirthDate = new DateTime(1979, 1, 16),
-                City = "Antwerp",
-                Email = "gill@bethanyspieshop.com",
-                EmployeeId = 2,
-                FirstName = "Gill",
-                LastName = "Cleeren",
-                Gender = Gender.Male,
-                PhoneNumber = "33999909923",
-                Smoker = false,
-                Street = "New Street",
-                Zip = "2000",
-                JobCategoryId = 1,
-                Comment = "Lorem Ipsum",
-                ExitDate = null,
-                JoinedDate = new DateTime(2017, 12, 24),
                 Latitude = 50.8503,
                 Longitude = 4.3517
             });
