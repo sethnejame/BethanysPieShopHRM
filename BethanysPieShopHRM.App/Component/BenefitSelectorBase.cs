@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Components;
 using BethanysPieShopHRM.Server.Services;
 using System.Threading.Tasks;
 using System;
+using System.Linq;
 
 namespace BethanysPieShopHRM.App.Component
 {
@@ -19,12 +20,15 @@ namespace BethanysPieShopHRM.App.Component
 
         protected bool SaveButtonDisabled { get; set; } = true;
 
+        [Parameter]
+        public EventCallback<bool> OnPremiumToggle { get; set; }
+
         protected async override Task OnInitializedAsync()
         {
             Benefits = await BenefitDataService.GetForEmployee(Employee);
         }
 
-        public void CheckBoxChanged(ChangeEventArgs e, BenefitModel benefitModel)
+        public async Task CheckBoxChanged(ChangeEventArgs e, BenefitModel benefitModel)
         {
             var newValue = (bool)e.Value;
             benefitModel.Selected = newValue;
@@ -35,6 +39,8 @@ namespace BethanysPieShopHRM.App.Component
                 benefitModel.StartDate = DateTime.UtcNow;
                 benefitModel.EndDate = DateTime.UtcNow.AddYears(1);
             }
+
+            await OnPremiumToggle.InvokeAsync(Benefits.Any(x => x.Premium && x.Selected)); // This is how we change parent props
         }
 
         public void SaveClick()

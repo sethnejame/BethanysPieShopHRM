@@ -1,6 +1,11 @@
 ﻿@inherits EmployeeRowBase
 
-<tr>
+@{ 
+
+    var cssClass = Employee.HasPremiumBenefits ? "table-success" : "";
+}
+
+<tr class="@cssClass">
     <td>
         @*<img src=@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{employee.EmployeeId}-small.jpg") class="rounded-circle" />*@
         <img src="@Employee.ImageName" width="50" class="rounded-circle" />
@@ -10,24 +15,25 @@
     <td>@Employee.LastName</td>
     <td>
         <a href="@($"employeedetail/{Employee.EmployeeId}")"
-           class="btn btn-primary table-btn">
+            class="btn btn-primary table-btn">
             <i class="fas fa-info-circle"></i>
         </a>
         <a href="@($"employeeedit/{Employee.EmployeeId}")"
-           class="btn btn-primary table-btn">
+            class="btn btn-primary table-btn">
             <i class="fas fa-edit"></i>
         </a>
         <a href="#" class="btn btn-primary table-btn" @onclick:preventDefault
-           @onclick="e => Employee.ShowBenefits = !Employee.ShowBenefits">
+            @onclick="e => Employee.ShowBenefits = !Employee.ShowBenefits">
             <i class="fas fa-thumbs-up"></i>
         </a>
     </td>
 </tr>
+
 @if (Employee.ShowBenefits)
 {
     <tr>
         <td colspan="5">
-            <BenefitSelector Employee="Employee" />
+            <BenefitSelector Employee="Employee" OnPremiumToggle="PremiumToggle"/>
         </td>
     </tr>
 }

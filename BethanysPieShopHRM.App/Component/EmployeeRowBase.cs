@@ -7,5 +7,10 @@ namespace BethanysPieShopHRM.App.Component
     {
         [Parameter] // Allows a parent component to set the value of this property (passing props like React)
         public EmployeeModel Employee { get; set; }
+
+        public void PremiumToggle(bool premiumBenefit)
+        {
+            Employee.HasPremiumBenefits = premiumBenefit;
+        }
     }
 }
