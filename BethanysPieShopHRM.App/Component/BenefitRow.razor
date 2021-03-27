@@ -11,7 +11,9 @@
     @if (Benefit.Selected)
     {
         <td>@Benefit.StartDate</td>
-        <td><input type="date" @bind="Benefit.EndDate" /></td>
+        <td>
+            <DateField @bind-Date="Benefit.EndDate" />
+        </td>
     }
     else
     {
