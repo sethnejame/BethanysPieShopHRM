@@ -18,25 +18,7 @@ else
                 </tr>
                 @foreach (var benefit in Benefits)
                 {
-            <tr @key="benefit">
-                @*Assigning @key here allows the diff mechanism to register changes to iterated elements*@
-                <td>
-                    @benefit.Description
-                </td>
-                <td>
-                    <input type="checkbox" checked="@benefit.Selected" @onchange="e => CheckBoxChanged(e, benefit)"/> 
-                    </td>
-                    @if (benefit.Selected)
-                    {
-                        <td>@benefit.StartDate</td>
-                        <td><input type="date" @bind="benefit.EndDate" /></td>
-                    }
-                    else
-                    {
-                        <td></td>
-                        <td></td>
-                    }
-                </tr>
+                    <BenefitRow Benefit="benefit" OnPremiumToggle="() => CheckBoxChanged()"/>
                 }
             </table>
         </div>

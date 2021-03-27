@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Linq;
 using System.Threading.Tasks;
 using BethanysPieShopHRM.Shared;
-using System.Collections.Generic;
 using BethanysPieShopHRM.App.Services;
 using Microsoft.AspNetCore.Components;
 

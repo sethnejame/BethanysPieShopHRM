@@ -1,0 +1,21 @@
+﻿@inherits BenefitRowBase
+
+<tr @key="Benefit">
+    @*Assigning @key here allows the diff mechanism to register changes to iterated elements*@
+    <td>
+        @Benefit.Description
+    </td>
+    <td>
+        <input type="checkbox" checked="@Benefit.Selected" @onchange="e => Checked(e, Benefit)" />
+    </td>
+    @if (Benefit.Selected)
+    {
+        <td>@Benefit.StartDate</td>
+        <td><input type="date" @bind="Benefit.EndDate" /></td>
+    }
+    else
+    {
+        <td></td>
+        <td></td>
+    }
+</tr>

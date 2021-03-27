@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/HNeCiYRaQAsMzJ6L61CBMmP58XXo1df+yXmLmFYKRAVku/8hHR+ED6Ogk5JZZDWEM8Q30SvzltoHP9myVEgMA==",
+  "dgSpecHash": "smuSmC+uTsSA+oaZ+RHLpokqCNbgjKSpFKDDV9uJ4SaNQ316Bt3BLNAqHIyPzBI8w/MWQbuDrGxvV/a1Tq23ug==",
   "success": true,
   "projectFilePath": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.Api\\BethanysPieShopHRM.Api.csproj",
   "expectedPackageFiles": [
@@ -91,10 +91,10 @@
     "C:\\Users\\sethn\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\sethn\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\sethn\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\sethn\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\sethn\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
     "C:\\Users\\sethn\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
-    "C:\\Users\\sethn\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+    "C:\\Users\\sethn\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\sethn\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\sethn\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hmTqTI8pG+cXkRCrlDS9VnIXy4MO3f3za858W8+RxQjMpu/DLdo+Q2VN2x6QAwrEmu0SkHw6rLSdMG598F37KA==",
+  "dgSpecHash": "inolV17lxqeGQc8S39S38JFCdCn99JUzxlR2nB3BUzdtp9p9/eAi8AVtx2IcG9pFUQTXteteZVhALNLu/VHdng==",
   "success": true,
   "projectFilePath": "D:\\Coding\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App\\BethanysPieShopHRM.App.csproj",
   "expectedPackageFiles": [
@@ -32,7 +32,7 @@
     "C:\\Users\\sethn\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\sethn\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\sethn\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\sethn\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.2\\microsoft.netcore.app.runtime.browser-wasm.5.0.2.nupkg.sha512"
+    "C:\\Users\\sethn\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.3\\microsoft.netcore.app.runtime.browser-wasm.5.0.3.nupkg.sha512"
   ],
   "logs": []
 }

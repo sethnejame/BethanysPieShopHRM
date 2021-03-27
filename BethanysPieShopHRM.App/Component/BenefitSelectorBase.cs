@@ -28,17 +28,9 @@ namespace BethanysPieShopHRM.App.Component
             Benefits = await BenefitDataService.GetForEmployee(Employee);
         }
 
-        public async Task CheckBoxChanged(ChangeEventArgs e, BenefitModel benefitModel)
+        public async Task CheckBoxChanged()
         {
-            var newValue = (bool)e.Value;
-            benefitModel.Selected = newValue;
             SaveButtonDisabled = false;
-
-            if(newValue)
-            {
-                benefitModel.StartDate = DateTime.UtcNow;
-                benefitModel.EndDate = DateTime.UtcNow.AddYears(1);
-            }
 
             await OnPremiumToggle.InvokeAsync(Benefits.Any(x => x.Premium && x.Selected)); // This is how we change parent props
         }
