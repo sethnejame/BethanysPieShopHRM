@@ -1,4 +1,5 @@
 ﻿@inherits BenefitSelectorBase;
+@using BethanysPieShopHRM.Shared;
 
 @if (Benefits == null)
 {
@@ -8,19 +9,17 @@ else
 {
     <div class="row">
         <div class="col-md-8">
-            <table class="table table-sm">
-                <tr>
-                    <th></th>
+            <TableTemplate Items="Benefits" TItem="BenefitModel" IsSmall="true">
+                <TableHeader>
                     <th class="w-auto">Benefit</th>
                     <th class="w-25">Start Date</th>
                     <th class="w-25">End Date</th>
 
-                </tr>
-                @foreach (var benefit in Benefits)
-                {
-                    <BenefitRow Benefit="benefit" OnPremiumToggle="() => CheckBoxChanged()"/>
-                }
-            </table>
+                </TableHeader>
+                    <RowTemplate Context="benefit">
+                        <BenefitRow Benefit="@benefit" OnPremiumToggle="() => CheckBoxChanged()" />
+                    </RowTemplate>
+            </TableTemplate>
         </div>
         <div class="col-md-4 mt-1">
             <button class="btn btn-primary" disabled="@SaveButtonDisabled"

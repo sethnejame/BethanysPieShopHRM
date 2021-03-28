@@ -334,7 +334,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "BethanysPieShopHRM.shared": "1.0.0",
           "Microsoft.AspNetCore.Components": "5.0.2",
           "Microsoft.AspNetCore.Components.Web": "5.0.2"
         },
@@ -349,6 +348,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BethanysPieShopHRM.ComponentsLibrary": "1.0.0",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
@@ -692,7 +692,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "BethanysPieShopHRM.shared": "1.0.0",
           "Microsoft.AspNetCore.Components": "5.0.2",
           "Microsoft.AspNetCore.Components.Web": "5.0.2"
         },
@@ -707,6 +706,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BethanysPieShopHRM.ComponentsLibrary": "1.0.0",
           "System.ComponentModel.Annotations": "4.7.0"
         },
         "compile": {
