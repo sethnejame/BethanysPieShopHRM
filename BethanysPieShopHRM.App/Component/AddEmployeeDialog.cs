@@ -16,6 +16,9 @@ namespace BethanysPieShopHRM.App.Component
 
         public bool ShowDialog { get; set; }
 
+        [CascadingParameter(Name = "buttonStyle")]
+        public string BtnClass { get; set; }
+
         [Parameter]
         public EventCallback<bool> CloseEventCallback { get; set; }
 

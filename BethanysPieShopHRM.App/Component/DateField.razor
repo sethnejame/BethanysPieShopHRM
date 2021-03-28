@@ -15,6 +15,8 @@
 
     [Parameter]
     public EventCallback<DateTime?> DateChanged { get; set; } // For two-way data binding, this property must be called "propertyName(Changed)" in order for the callback to work
+    // In this case, the property this callback is for is "Date" - when the parent uses the @bind-Date syntax, Blazor will automatically look for a callback property called "DateChanged" and subscribe to it
+    // So if the date changes from the child component, the prop will be updated in the parent component
 
     private async Task Revert()
     {

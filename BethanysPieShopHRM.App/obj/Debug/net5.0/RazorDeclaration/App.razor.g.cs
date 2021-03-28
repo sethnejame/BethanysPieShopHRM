@@ -124,6 +124,28 @@ using Microsoft.AspNetCore.Components.WebAssembly.Services;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 19 "D:\Coding\BethanysPieShopHRM.App\BethanysPieShopHRM.App\App.razor"
+       
+
+    private string buttonClass = "btn-danger";
+
+    // To lazy load assemblies, see below
+    //private List<Assembly> lazyLoadedAssemblies = new List<Assembly>();
+
+    //private async Task OnNavigateAsync(NavigationContext args)
+    //{
+    //    if (args.Path.Contains("employeedetail"))
+    //    {
+    //        var assemblies = await LazyAssemblyLoader.LoadAssembliesAsync(new string[] { "BethanysPieShopHRM.ComponentsLibrary.dll" });
+    //        lazyLoadedAssemblies.AddRange(assemblies);
+    //    }
+    //}
+
+
+#line default
+#line hidden
+#nullable disable
         [global::Microsoft.AspNetCore.Components.InjectAttribute] private LazyAssemblyLoader LazyAssemblyLoader { get; set; }
     }
 }
